@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+<Version val="40"/>
+<AwayWithYerDirtyPaws val="false"/>
+<Header>
+<ProjectName val=""/>
+<AutoCAD_Consultant val=""/>
+<Comment>Archimatika default dwg export to all disciplines.\nSome layers were merged to the groups for better usability.\nАрхіматичний основний транслятор для експорту dwg усім суміжникам.\nДеякі шари були згруповані для зручності.</Comment>
+<IOUsage val="Export"/>
+</Header>
+<Content>
+<Drawing_Unit>
+<unit val="MM"/>
+<DrawingScale val="FROM_APPL"/>
+<DrawingScaleVal val="100"/>
+<UseInsUnits val="true"/>
+</Drawing_Unit>
+<Open_Options>
+<Block_Processing val="GROUPED"/>
+<ThreeDim_Pln val="NONE"/>
+<Process_Dimensions val="DIM_CHAINS"/>
+<AssocDims val="false"/>
+<ThreeDim val="GDL_LP"/>
+<Load_From_Space val="LOAD_FROM_MODEL"/>
+<Open_Image_Format val="unchanged"/>
+<Load_From_Space_PM val="LOAD_FROM_MODEL"/>
+<Partial_Open val="true"/>
+<Force_Embedded_Drawings val="false"/>
+<ExplodeACISes val="NOT_SET"/>
+<BlockFilters items="1">
+<Item val="*u"/>
+</BlockFilters>
+</Open_Options>
+<Save_Options>
+<AcadVer val="R_2013"/>
+<ImageFormat val="unchanged"/>
+<AcadFormatsOnly val="true"/>
+<RelativePath val="false"/>
+<TemplateFile val="lan.hierarchical:///"/>
+<Save_To_Space val="TO_MODEL_"/>
+<Crop val="FLAT_PAPER"/>
+<Drawings_To val="TO_MAIN_FILE"/>
+<XREFPath val="rel:///"/>
+<XREFToCustomLoc val="false"/>
+<XREFCustomLoc val="lan.hierarchical:///"/>
+<XREFWithCustomName val="false"/>
+<XREFCustomName val="&lt;ViewID&gt; &lt;ViewName&gt;"/>
+<AttachedXREF_LocOption val="COPY_TO_RELATIVE_LOCATION"/>
+<AttachedXREFCustomLoc val="lan.hierarchical:///"/>
+<AttachedXREFPath val="rel:///Model%20XREFs"/>
+<MergeSupport val="false"/>
+<MergeSupport_800 val="false"/>
+<ExplodeComplex val="CONVERT_COMPLEX_ELEMENTS_TO_BLOCKS"/>
+<ZoneFills val="true"/>
+<Export_Edges val="true"/>
+<Simplified val="true"/>
+</Save_Options>
+<Attributes>
+<Layers>
+<LayerMethods>
+<Layer_By val="APPL_LAYERS"/>
+<Save_Invis_Too val="VISIBLE_ONLY"/>
+<PurgeUnused val="true"/>
+<SpecLayers items="10">
+<Item comptype="5" determination="0" value="T01 Annotations"/>
+<Item comptype="9" determination="0" value="S11 Zones Stamps"/>
+<Item comptype="1" determination="0" value="E29 Doors &amp; Windows"/>
+<Item comptype="2" determination="0" value="E29 Doors &amp; Windows"/>
+<Item comptype="11" determination="0" value="E29 Doors &amp; Windows"/>
+<Item comptype="6" determination="0" value="T01 Annotations"/>
+<Item comptype="4" determination="1" value="T03 Cutfill"/>
+<Item comptype="7" determination="0" value="S10 Zones"/>
+<Item comptype="10" determination="0" value="S11 Zones Stamps"/>
+<Item comptype="8" determination="0" value="S11 Zones Outlines"/>
+</SpecLayers>
+<RenovationStatus val="false"/>
+<RenovationStatus_as_Prefix val="true"/>
+<Existing val=""/>
+<New val="New_"/>
+<ToBeDemolished val="Demolished_"/>
+<DontExportEmptyLayers val="true"/>
+</LayerMethods>
+<LayerConv items="65">
+<Item ACVal="ARCHICAD Layer" ACADVal="0"/>
+<Item ACVal="A10 Estimations" ACADVal="A00 Analysis"/>
+<Item ACVal="A21 Survey, insolation" ACADVal="A00 Analysis"/>
+<Item ACVal="A21 Survey, transport" ACADVal="A00 Analysis"/>
+<Item ACVal="E06 Earthwork" ACADVal="E00 Site"/>
+<Item ACVal="E07 Parking lots" ACADVal="E00 Site"/>
+<Item ACVal="E08 Site development" ACADVal="E00 Site"/>
+<Item ACVal="E11 Foundation" ACADVal="E10 Substructure"/>
+<Item ACVal="E12 Basement &amp; plinth" ACADVal="E10 Substructure"/>
+<Item ACVal="E21 Frame" ACADVal="E21 Frame"/>
+<Item ACVal="E22 Bearing elements" ACADVal="E22 Bearing elements"/>
+<Item ACVal="E25 Walls, cladding, covering &amp; finishing" ACADVal="E25 Walls finishing"/>
+<Item ACVal="E25 Walls, curtain" ACADVal="E25 Walls curtain"/>
+<Item ACVal="E25 Walls, external" ACADVal="E25 Walls external"/>
+<Item ACVal="E25 Walls, internal" ACADVal="E25 Walls internal"/>
+<Item ACVal="E26 Partitions" ACADVal="E26 Partitions"/>
+<Item ACVal="E27 Railings" ACADVal="E27 Railings"/>
+<Item ACVal="E31 Floors" ACADVal="E31 Floors"/>
+<Item ACVal="E31 Floors covering &amp; finishing" ACADVal="E31 Floors"/>
+<Item ACVal="E32 Ceilings" ACADVal="E32 Ceilings"/>
+<Item ACVal="E32 Ceilings covering &amp; finishing" ACADVal="E32 Ceilings"/>
+<Item ACVal="E33 Roof" ACADVal="E33 Roof"/>
+<Item ACVal="E33 Roof covering &amp; finishing" ACADVal="E33 Roof"/>
+<Item ACVal="E33 Roof elements" ACADVal="E33 Roof elements"/>
+<Item ACVal="E36 Stairs" ACADVal="E36 Stairs"/>
+<Item ACVal="E37 Ramps" ACADVal="E37 Ramps"/>
+<Item ACVal="E41 Signage" ACADVal="E40 Equip &amp; Furniture"/>
+<Item ACVal="E42 Equipment" ACADVal="E40 Equip &amp; Furniture"/>
+<Item ACVal="E43 Furnishings" ACADVal="E40 Equip &amp; Furniture"/>
+<Item ACVal="E43 Stuffage PRO" ACADVal="E40 Equip &amp; Furniture"/>
+<Item ACVal="E45 Transportation" ACADVal="E45 Transportation"/>
+<Item ACVal="E50 Disposal" ACADVal="E45 Engineering"/>
+<Item ACVal="E55 Piped Supply" ACADVal="E49 Engineering"/>
+<Item ACVal="E60 HVAC" ACADVal="E49 Engineering"/>
+<Item ACVal="E70 Electrical" ACADVal="E49 Engineering"/>
+<Item ACVal="E75 Communication, security &amp; automation" ACADVal="E49 Engineering"/>
+<Item ACVal="E85 Special systems" ACADVal="E49 Engineering"/>
+<Item ACVal="E91 Solids.WIP" ACADVal="X90 BIM &amp; Tech"/>
+<Item ACVal="E92 Openings" ACADVal="E92 Openings"/>
+<Item ACVal="E93 Operators.WIP" ACADVal="X90 BIM &amp; Tech"/>
+<Item ACVal="E96 Hotlinks" ACADVal="E96 Hotlinks"/>
+<Item ACVal="E96 Hotlinks, engineering.D" ACADVal="E96 Hotlinks"/>
+<Item ACVal="E96 Hotlinks, structure.S" ACADVal="E96 Hotlinks"/>
+<Item ACVal="E97 Drawings" ACADVal="E97 Drawings"/>
+<Item ACVal="E98 BIM &amp; Technical Purpose" ACADVal="X90 BIM &amp; Tech"/>
+<Item ACVal="S10 Single spaces (rooms)" ACADVal="S10 Zones"/>
+<Item ACVal="S91 Zone boundries" ACADVal="S11 Zones Outlines"/>
+<Item ACVal="S92 Zone gross areas" ACADVal="S10 Zones"/>
+<Item ACVal="S93 Zone gross volumes" ACADVal="S10 Zones"/>
+<Item ACVal="T01 Annotations" ACADVal="T01 Annotations"/>
+<Item ACVal="T02 Dimensions" ACADVal="T02 Dimensions"/>
+<Item ACVal="T02 Dimensions, investment albums.IA" ACADVal="T02 Dimensions"/>
+<Item ACVal="T02 Dimensions, structural.S" ACADVal="T02 Dimensions grids"/>
+<Item ACVal="T02 Dimensions.WIP" ACADVal="T02 Dimensions"/>
+<Item ACVal="T03 Linework &amp; Hatching.WIP" ACADVal="T03 Graphics"/>
+<Item ACVal="T04 Title Blocks" ACADVal="T04 Title Blocks"/>
+<Item ACVal="T11 Grid, structural" ACADVal="T10 Grids"/>
+<Item ACVal="T11 Grid, structural.WIP" ACADVal="T10 Grids"/>
+<Item ACVal="T12 Grid, sectional" ACADVal="T10 Grids"/>
+<Item ACVal="T13 Grid, global.WIP" ACADVal="T10 Grids"/>
+<Item ACVal="T21 Details &amp; Worksheets" ACADVal="T01 Annotations"/>
+<Item ACVal="T22 Changes &amp; Revisions" ACADVal="T01 Annotations"/>
+<Item ACVal="T23 Elevations" ACADVal="T20 Markers"/>
+<Item ACVal="T24 Levels" ACADVal="T24 Levels"/>
+<Item ACVal="T25 Sections" ACADVal="T20 Markers"/>
+</LayerConv>
+<PenLayerTab>
+<PenPrefix val=" "/>
+<PenPostfix val=" "/>
+<PenLayer items="0"/>
+</PenLayerTab>
+</Layers>
+<Pens>
+<PenMethods>
+<MatchColor val="RGB"/>
+<ExportRGBIfNoMatch val="false"/>
+<PensToBYLAYER val="false"/>
+<ExportLineweight val="true"/>
+</PenMethods>
+<PenConv items="0"/>
+</Pens>
+<LineTypes>
+<LineTypeMethods>
+<LineTypesToBYLAYER val="false"/>
+<KeepLineTypesOnOpen val="true"/>
+<LTScale val="1"/>
+</LineTypeMethods>
+<LineTypeConv items="0"/>
+</LineTypes>
+<Fills>
+<FillMethods>
+<SolidFills val="false"/>
+<SolidSymbolFills val="false"/>
+<FillBkgs val="false"/>
+<ExplodeGradientFills val="false"/>
+<UseFillConversion val="false"/>
+</FillMethods>
+<FillConv items="0"/>
+</Fills>
+<StyleConv items="2">
+<Item ACVal="Arial Кириллический" ACADVal="Arial" OblAng="0"/>
+<Item ACVal="Century Gothic Кириллический" ACADVal="Century Gothic" OblAng="0"/>
+</StyleConv>
+</Attributes>
+<Miscellaneous>
+<MiscOptions>
+<DefFontConv val="lan.hierarchical:///"/>
+<Default_Font val="Arial Кириллический"/>
+<National val="true"/>
+<BinDXF val="false"/>
+<Splines_As_Splines val="true"/>
+<RenovationStatusChange val="2"/>
+</MiscOptions>
+</Miscellaneous>
+<Customization>
+<MappedFlag val="true"/>
+<CustomizationItems items="14">
+<CustomizationItem id="11" size="0"/>
+<CustomizationItem id="13" size="1">
+<CustomizerItem DllName="CommonBlock" IndexInDll="1" ParameterFile="lan.hierarchical:///" IsON="false"/>
+</CustomizationItem>
+<CustomizationItem id="1" size="1">
+<CustomizerItem DllName="RoundTrip" IndexInDll="1" ParameterFile="lan.hierarchical:///" IsON="false"/>
+</CustomizationItem>
+<CustomizationItem id="3" size="0"/>
+<CustomizationItem id="4" size="1">
+<CustomizerItem DllName="PointIN" IndexInDll="1" ParameterFile="lan.hierarchical:///" IsON="false"/>
+</CustomizationItem>
+<CustomizationItem id="8" size="5">
+<CustomizerItem DllName="MeshIn" IndexInDll="3" ParameterFile="lan.hierarchical:///" IsON="false"/>
+<CustomizerItem DllName="MeshIn" IndexInDll="4" ParameterFile="lan.hierarchical:///" IsON="false"/>
+<CustomizerItem DllName="MeshIn" IndexInDll="5" ParameterFile="lan.hierarchical:///" IsON="false"/>
+<CustomizerItem DllName="MeshIn" IndexInDll="6" ParameterFile="lan.hierarchical:///" IsON="false"/>
+<CustomizerItem DllName="MeshIn" IndexInDll="7" ParameterFile="lan.hierarchical:///" IsON="false"/>
+</CustomizationItem>
+<CustomizationItem id="5" size="1">
+<CustomizerItem DllName="CorrectTextPos" IndexInDll="1" ParameterFile="lan.hierarchical:///" IsON="true"/>
+</CustomizationItem>
+<CustomizationItem id="12" size="0"/>
+<CustomizationItem id="6" size="0"/>
+<CustomizationItem id="9" size="1">
+<CustomizerItem DllName="MeshIn" IndexInDll="2" ParameterFile="lan.hierarchical:///" IsON="false"/>
+</CustomizationItem>
+<CustomizationItem id="7" size="0"/>
+<CustomizationItem id="2" size="1">
+<CustomizerItem DllName="LabelIO" IndexInDll="1" ParameterFile="lan.hierarchical:///" IsON="true"/>
+</CustomizationItem>
+<CustomizationItem id="10" size="1">
+<CustomizerItem DllName="LabelIO" IndexInDll="2" ParameterFile="lan.hierarchical:///" IsON="false"/>
+</CustomizationItem>
+<CustomizationItem id="14" size="0"/>
+</CustomizationItems>
+</Customization>
+</Content>
+</Config>
