@@ -3,8 +3,8 @@
 <Version val="40"/>
 <AwayWithYerDirtyPaws val="false"/>
 <Header>
-<ProjectName val=""/>
-<AutoCAD_Consultant val=""/>
+<ProjectName val="All"/>
+<AutoCAD_Consultant val="Archimatika"/>
 <Comment>Archimatika default dwg export to all disciplines. Some layers were merged to the groups for better usability.\nАрхіматичний основний транслятор для експорту dwg усім суміжникам. Деякі шари були згруповані для зручності.</Comment>
 <IOUsage val="Export"/>
 </Header>
@@ -163,14 +163,14 @@
 <PenConv items="14">
 <Item ACVal="1" ACADVal="243" PenWeight="0"/>
 <Item ACVal="5" ACADVal="30" PenWeight="0"/>
-<Item ACVal="6" ACADVal="8" PenWeight="0.0"/>
+<Item ACVal="6" ACADVal="8" PenWeight="0"/>
 <Item ACVal="7" ACADVal="30" PenWeight="0"/>
 <Item ACVal="8" ACADVal="250" PenWeight="0"/>
 <Item ACVal="25" ACADVal="30" PenWeight="0"/>
 <Item ACVal="76" ACADVal="123" PenWeight="0"/>
 <Item ACVal="81" ACADVal="8" PenWeight="0"/>
-<Item ACVal="86" ACADVal="123" PenWeight="0.0"/>
-<Item ACVal="102" ACADVal="9" PenWeight="0.0"/>
+<Item ACVal="86" ACADVal="123" PenWeight="0"/>
+<Item ACVal="102" ACADVal="9" PenWeight="0"/>
 <Item ACVal="141" ACADVal="30" PenWeight="0"/>
 <Item ACVal="202" ACADVal="30" PenWeight="0"/>
 <Item ACVal="211" ACADVal="30" PenWeight="0"/>
