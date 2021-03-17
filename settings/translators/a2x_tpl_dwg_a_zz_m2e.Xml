@@ -5,7 +5,7 @@
 <Header>
 <ProjectName val="All"/>
 <AutoCAD_Consultant val="Archimatika"/>
-<Comment>Archimatika default dwg export to all disciplines. Some layers were merged to the groups for better usability.\nАрхіматичний основний транслятор для експорту dwg усім суміжникам. Деякі шари були згруповані для зручності.</Comment>
+<Comment>Archimatika default dwg export to all disciplines. Some layers were merged to the groups for better usability.\nАрхіматичний основний транслятор для експорту dwg усім суміжникам. Деякі шари були згруповані для зручності.\narm@iyur</Comment>
 <IOUsage val="Export"/>
 </Header>
 <Content>
