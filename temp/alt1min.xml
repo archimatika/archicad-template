@@ -36,11 +36,11 @@
 							<TextValue Text=" - "/>
 							<ACPropertyValue PropertyDefinitionGroupName="BEAMS – Lintels" PropertyDefinitionName="Lintel Bar Material"/>
 							<TextValue Text=" "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="98E721E3-372F-4D9E-85EC-2C763372CEBD">
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="C4B62357-1289-4D43-A3F6-AB02B192864C">
 								<Tool name="Beam_Tool"/>
 							</ACBuiltInPropertyValue>
 							<TextValue Text=" x "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="C4B62357-1289-4D43-A3F6-AB02B192864C">
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="98E721E3-372F-4D9E-85EC-2C763372CEBD">
 								<Tool name="Beam_Tool"/>
 							</ACBuiltInPropertyValue>
 							<TextValue Text=" * "/>
@@ -51,15 +51,158 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="C9EDA02D-EA3A-4604-9E25-DD597361F472"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="B9179DB7-97BC-4985-94DC-06C201F79EF4"/>
+							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="20CF3744-CA2D-4FB2-ACBC-F69C619AE362"/>
+							</SplitValue>
+							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="EAB6C4F7-A51F-4C13-BDBD-A72D4EFE9EC6"/>
+							</SplitValue>
 							<TextValue Text=" "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E">
-								<Tool name="Beam_Tool"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E"/>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="C4B62357-1289-4D43-A3F6-AB02B192864C"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+			<RulesTableItem IFCEntityType="IfcColumn">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="B9179DB7-97BC-4985-94DC-06C201F79EF4"/>
+							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="20CF3744-CA2D-4FB2-ACBC-F69C619AE362"/>
+							</SplitValue>
+							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="EAB6C4F7-A51F-4C13-BDBD-A72D4EFE9EC6"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="9CBD7B28-F475-4B54-9375-A89A94F252EC">
+								<Tool name="Wall_Tool"/>
 							</ACBuiltInPropertyValue>
 							<TextValue Text=" x "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="C4B62357-1289-4D43-A3F6-AB02B192864C">
-								<Tool name="Beam_Tool"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BA0E29BD-A795-4A93-A33F-C2C17B46C33A"/>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="B9179DB7-97BC-4985-94DC-06C201F79EF4"/>
+							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="20CF3744-CA2D-4FB2-ACBC-F69C619AE362"/>
+							</SplitValue>
+							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="EAB6C4F7-A51F-4C13-BDBD-A72D4EFE9EC6"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="830C1AC3-4B51-4F61-86F4-8CE0F8E4B828"/>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+			<RulesTableItem IFCEntityType="IfcPile">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="B9179DB7-97BC-4985-94DC-06C201F79EF4"/>
+							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="20CF3744-CA2D-4FB2-ACBC-F69C619AE362"/>
+							</SplitValue>
+							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="EAB6C4F7-A51F-4C13-BDBD-A72D4EFE9EC6"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="FE71F960-6AEF-4B5B-9E65-08CA27E07AFF"/>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+			<RulesTableItem IFCEntityType="IfcFooting">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="B9179DB7-97BC-4985-94DC-06C201F79EF4"/>
+							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="20CF3744-CA2D-4FB2-ACBC-F69C619AE362"/>
+							</SplitValue>
+							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="EAB6C4F7-A51F-4C13-BDBD-A72D4EFE9EC6"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="9CBD7B28-F475-4B54-9375-A89A94F252EC">
+								<Tool name="Wall_Tool"/>
 							</ACBuiltInPropertyValue>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="C4B62357-1289-4D43-A3F6-AB02B192864C"/>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="B9179DB7-97BC-4985-94DC-06C201F79EF4"/>
+							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="20CF3744-CA2D-4FB2-ACBC-F69C619AE362"/>
+							</SplitValue>
+							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="EAB6C4F7-A51F-4C13-BDBD-A72D4EFE9EC6"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="830C1AC3-4B51-4F61-86F4-8CE0F8E4B828"/>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+			<RulesTableItem IFCEntityType="IfcRailing">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="B9179DB7-97BC-4985-94DC-06C201F79EF4"/>
+							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="20CF3744-CA2D-4FB2-ACBC-F69C619AE362"/>
+							</SplitValue>
+							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="EAB6C4F7-A51F-4C13-BDBD-A72D4EFE9EC6"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="39C89AA7-32C5-494D-A9B7-8018E81439FE"/>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+			<RulesTableItem IFCEntityType="IfcSlab">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="B9179DB7-97BC-4985-94DC-06C201F79EF4"/>
+							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="20CF3744-CA2D-4FB2-ACBC-F69C619AE362"/>
+							</SplitValue>
+							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="EAB6C4F7-A51F-4C13-BDBD-A72D4EFE9EC6"/>
+							</SplitValue>
+							<TextValue Text=" h="/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760"/>
 						</GroupValue>
 					</Rule>
 				</Rules>
