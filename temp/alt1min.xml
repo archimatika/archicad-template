@@ -171,19 +171,256 @@
 				<Rules>
 					<Rule>
 						<GroupValue>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
-							<TextValue Text=" - "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="B9179DB7-97BC-4985-94DC-06C201F79EF4"/>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="20CF3744-CA2D-4FB2-ACBC-F69C619AE362"/>
-							</SplitValue>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="EAB6C4F7-A51F-4C13-BDBD-A72D4EFE9EC6"/>
+							<TextValue Text="Rail - "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
 							</SplitValue>
 							<TextValue Text=" "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="39C89AA7-32C5-494D-A9B7-8018E81439FE"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E">
+								<Tool name="Rail_Tool"/>
+							</ACBuiltInPropertyValue>
 							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760">
+								<Tool name="Rail_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<TextValue Text="Rail - "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E">
+								<Tool name="RailEnd_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760">
+								<Tool name="RailEnd_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<TextValue Text="Rail - "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E">
+								<Tool name="RailConnection_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760">
+								<Tool name="RailConnection_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<TextValue Text="Handrail - "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E">
+								<Tool name="Handrail_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760">
+								<Tool name="Handrail_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<TextValue Text="Handrail - "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E">
+								<Tool name="HandrailEnd_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760">
+								<Tool name="HandrailEnd_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<TextValue Text="Handrail - "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E">
+								<Tool name="HandrailConnection_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760">
+								<Tool name="HandrailConnection_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<TextValue Text="Toprail - "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E">
+								<Tool name="Toprail_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760">
+								<Tool name="Toprail_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<TextValue Text="Toprail - "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E">
+								<Tool name="ToprailEnd_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760">
+								<Tool name="ToprailEnd_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<TextValue Text="Toprail - "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E">
+								<Tool name="ToprailConnection_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760">
+								<Tool name="ToprailConnection_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<TextValue Text="Baluster - "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E">
+								<Tool name="Baluster_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760">
+								<Tool name="Baluster_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<TextValue Text="Inner Post - "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E">
+								<Tool name="InnerPost_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760">
+								<Tool name="InnerPost_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<TextValue Text="Railing Post - "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E">
+								<Tool name="RailingPost_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760">
+								<Tool name="RailingPost_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<SplitValue Index="0" IndexFrom="Start" Separator="(Railing_" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="A16BA200-27C1-4D1A-9C7F-4F2F9C5C6E21">
+									<Tool name="Railing_Tool"/>
+								</ACBuiltInPropertyValue>
+							</SplitValue>
+							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="7E221F33-829B-4FBC-A670-E74DABCE6289">
+								<Tool name="Railing_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="C4B62357-1289-4D43-A3F6-AB02B192864C">
+								<Tool name="Railing_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="43D17CBB-8142-4C75-B36D-32D529D5D75E">
+								<Tool name="Railing_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<SplitValue Index="0" IndexFrom="Start" Separator="(Railing)" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="A16BA200-27C1-4D1A-9C7F-4F2F9C5C6E21">
+									<Tool name="RailingSegment_Tool"/>
+								</ACBuiltInPropertyValue>
+							</SplitValue>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+							<TextValue Text=" - "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="013560E7-ED78-4382-9937-32DCB47EE13A">
+								<Tool name="Column_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="52D78720-2BC6-42C5-BEAF-D620B361B697">
+								<Tool name="Column_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5">
+								<Tool name="Beam_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" - "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
+							</SplitValue>
+							<TextValue Text=" "/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E"/>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="C4B62357-1289-4D43-A3F6-AB02B192864C"/>
 						</GroupValue>
 					</Rule>
 				</Rules>
@@ -391,6 +628,161 @@
 							</SplitValue>
 							<TextValue Text=" x "/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+			<RulesTableItem IFCEntityType="IfcRamp">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+							<TextValue Text=" - "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E"/>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="C4B62357-1289-4D43-A3F6-AB02B192864C"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+			<RulesTableItem IFCEntityType="IfcDistributionElement">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<TextValue Text="MEP - "/>
+							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="25826253-26F2-4D30-BE1B-0FFBB1314903">
+									<Tool name="Column_Tool"/>
+								</ACBuiltInPropertyValue>
+							</SplitValue>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<TextValue Text="MEP - "/>
+							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="25826253-26F2-4D30-BE1B-0FFBB1314903">
+									<Tool name="Beam_Tool"/>
+								</ACBuiltInPropertyValue>
+							</SplitValue>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<TextValue Text="MEP - "/>
+							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="25826253-26F2-4D30-BE1B-0FFBB1314903">
+									<Tool name="FreeShape_Tool"/>
+								</ACBuiltInPropertyValue>
+							</SplitValue>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<TextValue Text="MEP - "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=" 2" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="B8CFC590-58A3-43CF-A159-1B23BD3E8596"/>
+							</SplitValue>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+			<RulesTableItem IFCEntityType="IfcFurnishingElement">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<TextValue Text="FFE - "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=" 2" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="B8CFC590-58A3-43CF-A159-1B23BD3E8596"/>
+							</SplitValue>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+			<RulesTableItem IFCEntityType="IfcPlate">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="B2A4DCAB-7519-409B-A84C-CDE5793C9C09">
+								<Tool name="CWPanel_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="7E221F33-829B-4FBC-A670-E74DABCE6289"/>
+							<TextValue Text=" "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E"/>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="C4B62357-1289-4D43-A3F6-AB02B192864C"/>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="A16BA200-27C1-4D1A-9C7F-4F2F9C5C6E21"/>
+							<TextValue Text=" "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="FragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E">
+								<Tool name="RailingPanel_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="C4B62357-1289-4D43-A3F6-AB02B192864C">
+								<Tool name="RailingPanel_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+			<RulesTableItem IFCEntityType="IfcMember">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<SplitValue Index="0" IndexFrom="Start" Separator="Frame" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="CA027164-F0BE-4B63-BCA7-3726A34B3DC3">
+									<Tool name="CWFrame_Tool"/>
+								</ACBuiltInPropertyValue>
+							</SplitValue>
+							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="7E221F33-829B-4FBC-A670-E74DABCE6289"/>
+							<TextValue Text=" "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
+							</SplitValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E"/>
+							<TextValue Text=" x "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="C48F6B20-E236-42E0-8A4B-4FA6642F10FA">
+								<Tool name="CWFrame_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+			<RulesTableItem IFCEntityType="IfcCurtainWall">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="7E221F33-829B-4FBC-A670-E74DABCE6289"/>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760">
+								<Tool name="CurtainWall_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" * "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="7841EF78-8086-41F6-9D85-36AB31E21652">
+								<Tool name="CurtainWall_Tool"/>
+							</ACBuiltInPropertyValue>
 						</GroupValue>
 					</Rule>
 				</Rules>
@@ -969,7 +1361,119 @@
 			</PropertyType>
 		</PropertyDef>
 	</SchemeProperty>
-	<SchemeProperty IFCEntityType="IfcStairFlight" PropertySetName="Pset_StairCommon">
+	<SchemeProperty IFCEntityType="IfcStair" PropertySetName="Pset_StairCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcStair">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<LibpartParamaterValue LibpartMainGuid="00000000-0000-0000-0000-000000000000" ParameterName="rnu" ParameterType="Integer"/>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="4FFCB82F-1D60-4262-85B9-EC6FEC785D40">
+								<Tool name="Stair_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>NumberOfRiser</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcCountMeasure"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcStair" PropertySetName="Pset_StairCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcStair">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<LibpartParamaterValue LibpartMainGuid="00000000-0000-0000-0000-000000000000" ParameterName="gs_onorm_treadnumber" ParameterType="CString"/>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="1108D4D8-BDFB-491D-B527-C1779EE03209">
+								<Tool name="Stair_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>NumberOfTreads</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcCountMeasure"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcStair" PropertySetName="Pset_StairCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcStair">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<LibpartParamaterValue LibpartMainGuid="00000000-0000-0000-0000-000000000000" ParameterName="ifc_RiserHeight" ParameterType="Length"/>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="CD511852-FB66-426B-AC5B-DDAC12817792">
+								<Tool name="Stair_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>RiserHeight</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcPositiveLengthMeasure"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcStair" PropertySetName="Pset_StairCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcStair">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<LibpartParamaterValue LibpartMainGuid="00000000-0000-0000-0000-000000000000" ParameterName="FM_HeadRoom" ParameterType="RealNum"/>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="8EC256D5-C747-4778-A4BF-99047C25F4AF">
+								<Tool name="Stair_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>RequiredHeadroom</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcPositiveLengthMeasure"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcStairFlight" PropertySetName="Pset_StairFlightCommon">
 		<RulesTable>
 			<RulesTableItem IFCEntityType="IfcStairFlight">
 				<Rules>
@@ -990,7 +1494,7 @@
 			</PropertyType>
 		</PropertyDef>
 	</SchemeProperty>
-	<SchemeProperty IFCEntityType="IfcStairFlight" PropertySetName="Pset_StairCommon">
+	<SchemeProperty IFCEntityType="IfcStairFlight" PropertySetName="Pset_StairFlightCommon">
 		<RulesTable>
 			<RulesTableItem IFCEntityType="IfcStairFlight">
 				<Rules>
@@ -1209,6 +1713,27 @@
 		</RulesTable>
 		<PropertyDef>
 			<Name>Apartment</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcIdentifier"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcSpace" PropertySetName="Pset_Draughting">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcSpace">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="25826253-26F2-4D30-BE1B-0FFBB1314903"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>LayerName</Name>
 			<PropertyType>
 				<TypePropertySingleValue>
 					<DataType type="IfcIdentifier"/>

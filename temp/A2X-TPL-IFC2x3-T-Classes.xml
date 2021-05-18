@@ -21,28 +21,12 @@
 		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
 	</MappingItem>
 	<MappingItem>
-		<ClassificationItem Id="Curtain Wall Panel"/>
-		<IFCType IFCObject="IfcCurtainWall" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcCurtainWallType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id="Curtain Wall Frame"/>
-		<IFCType IFCObject="IfcCurtainWall" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcCurtainWallType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
-	</MappingItem>
-	<MappingItem>
 		<ClassificationItem Id="Footing"/>
 		<IFCType IFCObject="IfcFooting" IFCObjectPredefinedType="FOOTING_BEAM"/>
 	</MappingItem>
 	<MappingItem>
 		<ClassificationItem Id="Member"/>
 		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id="Plate"/>
-		<IFCType IFCObject="IfcPlate" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcPlateType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id="Ramp"/>
-		<IFCType IFCObject="IfcRamp" IFCObjectPredefinedType="NOTDEFINED"/>
 	</MappingItem>
 	<MappingItem>
 		<ClassificationItem Id="Roof"/>
@@ -57,27 +41,7 @@
 		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="NOTDEFINED"/>
 	</MappingItem>
 	<MappingItem>
-		<ClassificationItem Id="Ramp Flight"/>
-		<IFCType IFCObject="IfcRampFlight" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcRampFlightType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id="Ramp Landing"/>
-		<IFCType IFCObject="IfcRamp" IFCObjectPredefinedType="NOTDEFINED"/>
-	</MappingItem>
-	<MappingItem>
 		<ClassificationItem Id="Railing"/>
-		<IFCType IFCObject="IfcRailing" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcRailingType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id="Rail"/>
-		<IFCType IFCObject="IfcRailing" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcRailingType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id="Railing Post"/>
-		<IFCType IFCObject="IfcRailing" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcRailingType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id="Railing Panel"/>
 		<IFCType IFCObject="IfcRailing" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcRailingType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
 	</MappingItem>
 	<MappingItem>
@@ -335,5 +299,53 @@
 	<MappingItem>
 		<ClassificationItem Id="Stair Flight Structure"/>
 		<IFCType IFCObject="IfcStairFlight" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="STRAIGHT" IFCTypeObject="IfcStairFlightType" IFCTypeObjectPredefinedType="STRAIGHT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Ramp Landing"/>
+		<IFCType IFCObject="IfcSlab" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcSlabType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Ramp Flight"/>
+		<IFCType IFCObject="IfcRampFlight" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcRampFlightType" IFCTypeObjectPredefinedType="STRAIGHT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Ramp"/>
+		<IFCType IFCObject="IfcRamp" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="STRAIGHT_RUN_RAMP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Curtain Wall Frame"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="STUD" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="STUD"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Curtain Wall Panel"/>
+		<IFCType IFCObject="IfcPlate" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcPlateType" IFCTypeObjectPredefinedType="CURTAIN_PANEL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Curtain Wall Part"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="MEMBER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Plate"/>
+		<IFCType IFCObject="IfcPlate" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcPlateType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Railing Segment"/>
+		<IFCType IFCObject="IfcRailing" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="NODE" IFCTypeObject="IfcRailingType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="NODE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Railing Panel"/>
+		<IFCType IFCObject="IfcPlate" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcPlateType" IFCTypeObjectPredefinedType="SHEET"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Railing Post"/>
+		<IFCType IFCObject="IfcRailing" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="POST" IFCTypeObject="IfcRailingType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="POST"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Rail"/>
+		<IFCType IFCObject="IfcRailing" IFCObjectPredefinedType="HANDRAIL" IFCTypeObject="IfcRailingType" IFCTypeObjectPredefinedType="HANDRAIL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Baluster"/>
+		<IFCType IFCObject="IfcRailing" IFCObjectPredefinedType="BALUSTRADE" IFCTypeObject="IfcRailingType" IFCTypeObjectPredefinedType="BALUSTRADE"/>
 	</MappingItem>
 </IFCTypeMappingItemList>
