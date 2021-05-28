@@ -77,14 +77,6 @@
 		<IFCType IFCObject="IfcBeam" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcBeamType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
 	</MappingItem>
 	<MappingItem>
-		<ClassificationItem Id="Space"/>
-		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id="Access Space"/>
-		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
-	</MappingItem>
-	<MappingItem>
 		<ClassificationItem Id="Commercial Space"/>
 		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
 	</MappingItem>
@@ -203,18 +195,6 @@
 	<MappingItem>
 		<ClassificationItem Id="Lintel"/>
 		<IFCType IFCObject="IfcBeam" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcBeamType" IFCTypeObjectPredefinedType="LINTEL"/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id="Elevator"/>
-		<IFCType IFCObject="IfcTransportElement" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcTransportElementType" IFCTypeObjectPredefinedType="ELEVATOR"/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id="Escalator"/>
-		<IFCType IFCObject="IfcTransportElement" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcTransportElementType" IFCTypeObjectPredefinedType="ESCALATOR"/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id="Moving Walkway"/>
-		<IFCType IFCObject="IfcTransportElement" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcTransportElementType" IFCTypeObjectPredefinedType="MOVINGWALKWAY"/>
 	</MappingItem>
 	<MappingItem>
 		<ClassificationItem Id="Covering"/>
@@ -351,5 +331,33 @@
 	<MappingItem>
 		<ClassificationItem Id="Grid Axis"/>
 		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="GRID" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="GRID"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Graphic Content"/>
+		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Access Space"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Space"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Elevator"/>
+		<IFCType IFCObject="IfcTransportElement" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcTransportElementType" IFCTypeObjectPredefinedType="ELEVATOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Escalator"/>
+		<IFCType IFCObject="IfcTransportElement" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcTransportElementType" IFCTypeObjectPredefinedType="ESCALATOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Moving Walkway"/>
+		<IFCType IFCObject="IfcTransportElement" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcTransportElementType" IFCTypeObjectPredefinedType="MOVINGWALKWAY"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Vegetation"/>
+		<IFCType IFCObject="IfcFurnishingElement" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="VEGETATION" IFCTypeObject="IfcFurnishingElementType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="VEGETATION"/>
 	</MappingItem>
 </IFCTypeMappingItemList>

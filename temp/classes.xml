@@ -326,6 +326,12 @@
 							<Description/>
 							<Children/>
 						</Item>
+						<Item>
+							<ID>Vegetation</ID>
+							<Name/>
+							<Description/>
+							<Children/>
+						</Item>
 					</Children>
 				</Item>
 				<Item>
@@ -542,12 +548,6 @@
 							<Children/>
 						</Item>
 					</Children>
-				</Item>
-				<Item>
-					<ID>Grid Axis</ID>
-					<Name/>
-					<Description/>
-					<Children/>
 				</Item>
 				<Item>
 					<ID>Materials</ID>
@@ -970,6 +970,18 @@
 							</Children>
 						</Item>
 					</Children>
+				</Item>
+				<Item>
+					<ID>Graphic Content</ID>
+					<Name/>
+					<Description/>
+					<Children/>
+				</Item>
+				<Item>
+					<ID>Grid Axis</ID>
+					<Name/>
+					<Description/>
+					<Children/>
 				</Item>
 			</Items>
 		</System>
