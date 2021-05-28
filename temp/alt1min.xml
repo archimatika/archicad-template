@@ -824,6 +824,67 @@
 					</Rule>
 				</Rules>
 			</RulesTableItem>
+			<RulesTableItem IFCEntityType="IfcOpeningElement">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5">
+								<Tool name="Opening_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" - "/>
+							<ACPropertyValue PropertyDefinitionGroupName="OPENINGS" PropertyDefinitionName="Opening Function"/>
+							<TextValue Text=" (Z:"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="1F477A91-E8B9-4F47-9EE6-18EDDB569BDA">
+								<Tool name="Opening_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=", "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E">
+								<Tool name="Opening_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" × "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="C4B62357-1289-4D43-A3F6-AB02B192864C">
+								<Tool name="Opening_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=")"/>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+							<TextValue Text=" - "/>
+							<ACPropertyValue PropertyDefinitionGroupName="OPENINGS" PropertyDefinitionName="Opening Function"/>
+							<TextValue Text=" ("/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E"/>
+							<TextValue Text=" × "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="C4B62357-1289-4D43-A3F6-AB02B192864C"/>
+							<TextValue Text=")"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+			<RulesTableItem IFCEntityType="IfcBuildingElementProxy">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<TextValue Text="Proxy - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="A16BA200-27C1-4D1A-9C7F-4F2F9C5C6E21"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+	</SchemeAttribute>
+	<SchemeAttribute IFCEntityType="IfcRoot" Name="Description">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcBuildingElementProxy">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
 		</RulesTable>
 	</SchemeAttribute>
 	<SchemeAttribute IFCEntityType="IfcStairFlight" Name="NumberOfTreads">
@@ -1657,16 +1718,6 @@
 			</PropertyType>
 		</PropertyDef>
 	</SchemeProperty>
-	<SchemeProperty IFCEntityType="IfcProject" PropertySetName="Pset_ProjectCommon">
-		<PropertyDef>
-			<Name>Origin</Name>
-			<PropertyType>
-				<TypePropertySingleValue>
-					<DataType type="IfcLabel"/>
-				</TypePropertySingleValue>
-			</PropertyType>
-		</PropertyDef>
-	</SchemeProperty>
 	<SchemeProperty IFCEntityType="IfcSpace" PropertySetName="Pset_SpaceCommon">
 		<RulesTable>
 			<RulesTableItem IFCEntityType="IfcSpace">
@@ -1708,27 +1759,6 @@
 		</RulesTable>
 		<PropertyDef>
 			<Name>Apartment</Name>
-			<PropertyType>
-				<TypePropertySingleValue>
-					<DataType type="IfcIdentifier"/>
-				</TypePropertySingleValue>
-			</PropertyType>
-		</PropertyDef>
-	</SchemeProperty>
-	<SchemeProperty IFCEntityType="IfcSpace" PropertySetName="Pset_Draughting">
-		<RulesTable>
-			<RulesTableItem IFCEntityType="IfcSpace">
-				<Rules>
-					<Rule>
-						<GroupValue>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="25826253-26F2-4D30-BE1B-0FFBB1314903"/>
-						</GroupValue>
-					</Rule>
-				</Rules>
-			</RulesTableItem>
-		</RulesTable>
-		<PropertyDef>
-			<Name>LayerName</Name>
 			<PropertyType>
 				<TypePropertySingleValue>
 					<DataType type="IfcIdentifier"/>

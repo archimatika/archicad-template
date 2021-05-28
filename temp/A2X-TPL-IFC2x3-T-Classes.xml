@@ -13,10 +13,6 @@
 		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
 	</MappingItem>
 	<MappingItem>
-		<ClassificationItem Id="Opening"/>
-		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
-	</MappingItem>
-	<MappingItem>
 		<ClassificationItem Id="Massing"/>
 		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
 	</MappingItem>
@@ -43,18 +39,6 @@
 	<MappingItem>
 		<ClassificationItem Id="Railing"/>
 		<IFCType IFCObject="IfcRailing" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcRailingType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id="Door"/>
-		<IFCType IFCObject="IfcDoor" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcDoorStyle" IFCTypeObjectPredefinedType=""/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id="Skylight"/>
-		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id="Window"/>
-		<IFCType IFCObject="IfcWindow" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcWindowStyle" IFCTypeObjectPredefinedType=""/>
 	</MappingItem>
 	<MappingItem>
 		<ClassificationItem Id="Building Element Proxy"/>
@@ -151,10 +135,6 @@
 	<MappingItem>
 		<ClassificationItem Id="Transport Space"/>
 		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id="Grid Axis"/>
-		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="Grid Axis"/>
 	</MappingItem>
 	<MappingItem>
 		<ClassificationItem Id="Element Assembly"/>
@@ -273,18 +253,6 @@
 		<IFCType IFCObject="IfcCovering" IFCObjectPredefinedType="MEMBRANE" IFCTypeObject="IfcCoveringType" IFCTypeObjectPredefinedType="MEMBRANE"/>
 	</MappingItem>
 	<MappingItem>
-		<ClassificationItem Id=""/>
-		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="STAIR_STEP" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="STAIR_STEP"/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id=""/>
-		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="STAIR_TREAD" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="STAIR_TREAD"/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id=""/>
-		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="NOTDEFINED"/>
-	</MappingItem>
-	<MappingItem>
 		<ClassificationItem Id="Stair Riser"/>
 		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="STAIR_RISER"/>
 	</MappingItem>
@@ -329,10 +297,6 @@
 		<IFCType IFCObject="IfcPlate" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcPlateType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
 	</MappingItem>
 	<MappingItem>
-		<ClassificationItem Id="Railing Segment"/>
-		<IFCType IFCObject="IfcRailing" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="NODE" IFCTypeObject="IfcRailingType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="NODE"/>
-	</MappingItem>
-	<MappingItem>
 		<ClassificationItem Id="Railing Panel"/>
 		<IFCType IFCObject="IfcPlate" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcPlateType" IFCTypeObjectPredefinedType="SHEET"/>
 	</MappingItem>
@@ -345,7 +309,47 @@
 		<IFCType IFCObject="IfcRailing" IFCObjectPredefinedType="HANDRAIL" IFCTypeObject="IfcRailingType" IFCTypeObjectPredefinedType="HANDRAIL"/>
 	</MappingItem>
 	<MappingItem>
-		<ClassificationItem Id="Baluster"/>
+		<ClassificationItem Id="Opening"/>
+		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Skylight"/>
+		<IFCType IFCObject="IfcWindow" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="SKYLIGHT" IFCTypeObject="IfcWindowStyle" IFCTypeObjectPredefinedType="" IFCTypeObjectUserDefinedType="SKYLIGHT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Door"/>
+		<IFCType IFCObject="IfcDoor" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="DOOR" IFCTypeObject="IfcDoorStyle" IFCTypeObjectPredefinedType="" IFCTypeObjectUserDefinedType="DOOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Window"/>
+		<IFCType IFCObject="IfcWindow" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="WINDOW" IFCTypeObject="IfcWindowStyle" IFCTypeObjectPredefinedType="" IFCTypeObjectUserDefinedType="WINDOW"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Balustrade"/>
 		<IFCType IFCObject="IfcRailing" IFCObjectPredefinedType="BALUSTRADE" IFCTypeObject="IfcRailingType" IFCTypeObjectPredefinedType="BALUSTRADE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Ladder"/>
+		<IFCType IFCObject="IfcFurnishingElement" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="LADDER" IFCTypeObject="IfcFurnishingElementType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="LADDER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Empty Opening"/>
+		<IFCType IFCObject="IfcOpeningElement" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="OPENING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Gate"/>
+		<IFCType IFCObject="IfcDoor" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="GATE" IFCTypeObject="IfcDoorStyle" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="GATE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Opening in Wall"/>
+		<IFCType IFCObject="IfcOpeningElement" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="OPENING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Opening in Slab"/>
+		<IFCType IFCObject="IfcOpeningElement" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="OPENING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Grid Axis"/>
+		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="GRID" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="GRID"/>
 	</MappingItem>
 </IFCTypeMappingItemList>
