@@ -50,7 +50,7 @@
 <AttachedXREFPath val="rel:///Model%20XREFs"/>
 <MergeSupport val="false"/>
 <MergeSupport_800 val="false"/>
-<ExplodeComplex val="EXPLODE_ALL_COMPLEX_ELEMENTS"/>
+<ExplodeComplex val="COMVERT_ONLY_OBJECTS_TO_BLOCKS"/>
 <ZoneFills val="true"/>
 <Export_Edges val="true"/>
 <Simplified val="true"/>
