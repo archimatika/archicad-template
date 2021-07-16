@@ -11,8 +11,6 @@ IfcBoiler		Mechanical Equipment
 IfcBoilerType		Mechanical Equipment	
 IfcBuildingElementPart		Parts	
 IfcBuildingElementPartType		Parts	
-IfcBuildingElementProxy		Generic Models	
-IfcBuildingElementProxyType		Generic Models	
 IfcCableCarrierFitting		Cable Tray Fittings	
 IfcCableCarrierFittingType		Cable Tray Fittings	
 IfcCableCarrierSegment		Cable Trays	
@@ -75,8 +73,10 @@ IfcFlowStorageDevice		Specialty Equipment
 IfcFlowTerminal		Generic Models	
 IfcFooting		Structural Foundations	
 IfcFootingType		Structural Foundations	
-IfcFurnishingElement		Furniture	
-IfcFurnishingElementType		Furniture	
+IfcFurnishingElement	EQUIPMENT	Furniture Systems	
+IfcFurnishingElement	FURNISHING	Furniture	
+IfcFurnishingElementType	EQUIPMENT	Furniture Systems	
+IfcFurnishingElementType	FURNISHING	Furniture	
 IfcFurniture		Furniture	
 IfcFurnitureType		Furniture	
 IfcGeographicElement		Site	
@@ -141,8 +141,9 @@ IfcStairFlightType		Stairs
 IfcStairType		Stairs	
 IfcSwitchingDevice		Electrical Fixtures	
 IfcSwitchingDeviceType		Electrical Fixtures	
-IfcSystemFurnitureElement		Furniture	
-IfcSystemFurnitureElementType		Furniture	
+IfcSystemFurnitureElement		Furniture Systems	
+IfcSystemFurnitureElementType		Furniture Systems	
+IfcSystemFurnitureElementType	EQUIPMENT	Furniture Systems	
 IfcTank		Specialty Equipment	
 IfcTankType		Specialty Equipment	
 IfcTransportElement		Specialty Equipment	
