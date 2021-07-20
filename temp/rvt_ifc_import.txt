@@ -41,7 +41,7 @@ IfcDiscreteAccessory		Specialty Equipment
 IfcDiscreteAccessoryType		Specialty Equipment	
 IfcDistributionFlowElement		Mechanical Equipment	
 IfcDoor		Doors	
-IfcDoorStyle		Generic Models	
+IfcDoorStyle		Parts	
 IfcDoorType		Doors	
 IfcDuctFitting		Duct Fittings	
 IfcDuctFittingType		Duct Fittings	
@@ -158,5 +158,5 @@ IfcWall		Walls
 IfcWallStandardCase		Walls	
 IfcWallType		Walls	
 IfcWindow		Windows	
-IfcWindowStyle		Generic Models	
+IfcWindowStyle		Parts	
 IfcWindowType		Windows	
