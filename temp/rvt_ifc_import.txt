@@ -11,6 +11,8 @@ IfcBoiler		Mechanical Equipment
 IfcBoilerType		Mechanical Equipment	
 IfcBuildingElementPart		Parts	
 IfcBuildingElementPartType		Parts	
+IfcBuildingElementProxy		Generic Models	
+IfcBuildingElementProxyType		Generic Models	
 IfcCableCarrierFitting		Cable Tray Fittings	
 IfcCableCarrierFittingType		Cable Tray Fittings	
 IfcCableCarrierSegment		Cable Trays	
@@ -41,8 +43,6 @@ IfcDiscreteAccessory		Specialty Equipment
 IfcDiscreteAccessoryType		Specialty Equipment	
 IfcDistributionFlowElement		Mechanical Equipment	
 IfcDoor		Doors	
-IfcDoorStyle		Parts	
-IfcDoorType		Doors	
 IfcDuctFitting		Duct Fittings	
 IfcDuctFittingType		Duct Fittings	
 IfcDuctSegment		Ducts	
@@ -91,7 +91,7 @@ IfcMember		Structural Framing
 IfcMember	MULLION	Curtain Wall Mullions	
 IfcMemberType		Structural Framing	
 IfcMemberType	MULLION	Curtain Wall Mullions	
-IfcOpeningElement		Shaft Openings	
+IfcOpeningElement		Generic Models	
 IfcPile		Structural Foundations	
 IfcPileType		Structural Foundations	
 IfcPipeFitting		Pipe Fittings	
@@ -143,7 +143,6 @@ IfcSwitchingDevice		Electrical Fixtures
 IfcSwitchingDeviceType		Electrical Fixtures	
 IfcSystemFurnitureElement		Furniture Systems	
 IfcSystemFurnitureElementType		Furniture Systems	
-IfcSystemFurnitureElementType	EQUIPMENT	Furniture Systems	
 IfcTank		Specialty Equipment	
 IfcTankType		Specialty Equipment	
 IfcTransportElement		Specialty Equipment	
@@ -158,5 +157,3 @@ IfcWall		Walls
 IfcWallStandardCase		Walls	
 IfcWallType		Walls	
 IfcWindow		Windows	
-IfcWindowStyle		Parts	
-IfcWindowType		Windows	
