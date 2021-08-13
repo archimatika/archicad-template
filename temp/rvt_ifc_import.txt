@@ -117,7 +117,6 @@ IfcSanitaryTerminalType		Plumbing Fixtures
 IfcSensor		Specialty Equipment	
 IfcSensorType		Specialty Equipment	
 IfcSite		Site	
-IfcSite	VEGETATION	Planting	
 IfcSlab		Floors	
 IfcSlab	BASESLAB	Structural Foundations	
 IfcSlab	FLOOR	Floors	
