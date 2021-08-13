@@ -11,8 +11,7 @@ IfcBoiler		Mechanical Equipment
 IfcBoilerType		Mechanical Equipment	
 IfcBuildingElementPart		Parts	
 IfcBuildingElementPartType		Parts	
-IfcBuildingElementProxy		Generic Models	
-IfcBuildingElementProxyType		Generic Models	
+IfcBuildingElementProxyType	USERDEFINED	DontImport	
 IfcCableCarrierFitting		Cable Tray Fittings	
 IfcCableCarrierFittingType		Cable Tray Fittings	
 IfcCableCarrierSegment		Cable Trays	
@@ -43,6 +42,8 @@ IfcDiscreteAccessory		Specialty Equipment
 IfcDiscreteAccessoryType		Specialty Equipment	
 IfcDistributionFlowElement		Mechanical Equipment	
 IfcDoor		Doors	
+IfcDoorStyle		Parts	
+IfcDoorType		Doors	
 IfcDuctFitting		Duct Fittings	
 IfcDuctFittingType		Duct Fittings	
 IfcDuctSegment		Ducts	
@@ -73,11 +74,6 @@ IfcFlowStorageDevice		Specialty Equipment
 IfcFlowTerminal		Generic Models	
 IfcFooting		Structural Foundations	
 IfcFootingType		Structural Foundations	
-IfcFurnishingElement	EQUIPMENT	Furniture Systems	
-IfcFurnishingElement	FURNISHING	Furniture	
-IfcFurnishingElementType	EQUIPMENT	Furniture Systems	
-IfcFurnishingElementType	FURNISHING	Furniture	
-IfcFurniture		Furniture	
 IfcFurnitureType		Furniture	
 IfcGeographicElement		Site	
 IfcGeographicElementType		Site	
@@ -121,20 +117,21 @@ IfcSanitaryTerminalType		Plumbing Fixtures
 IfcSensor		Specialty Equipment	
 IfcSensorType		Specialty Equipment	
 IfcSite		Site	
-IfcSlab		Generic Models	
+IfcSite	VEGETATION	Planting	
+IfcSlab		Floors	
 IfcSlab	BASESLAB	Structural Foundations	
 IfcSlab	FLOOR	Floors	
 IfcSlab	LANDING	Stairs	Landings
 IfcSlab	ROOF	Roofs	
-IfcSlabType		Generic Models	
+IfcSlabType		Floors	
 IfcSlabType	BASESLAB	Structural Foundations	
 IfcSlabType	FLOOR	Floors	
 IfcSlabType	LANDING	Stairs	Landings
 IfcSlabType	ROOF	Roofs	
-IfcSpace		Generic Models	
+IfcSpace		DontImport	
 IfcSpaceHeater		Mechanical Equipment	
 IfcSpaceHeaterType		Mechanical Equipment	
-IfcSpaceType		Generic Models	
+IfcSpaceType		DontImport	
 IfcStair		Stairs	
 IfcStairFlight		Stairs	
 IfcStairFlightType		Stairs	
@@ -157,3 +154,5 @@ IfcWall		Walls
 IfcWallStandardCase		Walls	
 IfcWallType		Walls	
 IfcWindow		Windows	
+IfcWindowStyle		Parts	
+IfcWindowType		Windows	
