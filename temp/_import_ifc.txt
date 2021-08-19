@@ -87,7 +87,7 @@ IfcMember		Structural Framing
 IfcMember	MULLION	Curtain Wall Mullions	
 IfcMemberType		Structural Framing	
 IfcMemberType	MULLION	Curtain Wall Mullions	
-IfcOpeningElement		Generic Models	
+IfcOpeningElement		Mass	
 IfcPile		Structural Foundations	
 IfcPileType		Structural Foundations	
 IfcPipeFitting		Pipe Fittings	
