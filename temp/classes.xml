@@ -13,297 +13,6 @@
 			<Source>www.archimatika.com</Source>
 			<Items>
 				<Item>
-					<ID>Construction Element</ID>
-					<Name/>
-					<Description/>
-					<Children>
-						<Item>
-							<ID>Beam</ID>
-							<Name/>
-							<Description/>
-							<Children>
-								<Item>
-									<ID>Lintel</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>Column</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>Covering</ID>
-							<Name/>
-							<Description/>
-							<Children>
-								<Item>
-									<ID>Ceiling</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-								<Item>
-									<ID>Cladding</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-								<Item>
-									<ID>Flooring</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-								<Item>
-									<ID>Insulation</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-								<Item>
-									<ID>Membrane</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-								<Item>
-									<ID>Roofing</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-								<Item>
-									<ID>Sleeving</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-								<Item>
-									<ID>Wrapping</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>Curtain Wall</ID>
-							<Name/>
-							<Description/>
-							<Children>
-								<Item>
-									<ID>Curtain Wall Part</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-								<Item>
-									<ID>Curtain Wall Panel</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-								<Item>
-									<ID>Curtain Wall Frame</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>Footing</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>Member</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>Pile</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>Plate</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>Railing</ID>
-							<Name/>
-							<Description/>
-							<Children>
-								<Item>
-									<ID>Balustrade</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-								<Item>
-									<ID>Rail</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-								<Item>
-									<ID>Railing Post</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-								<Item>
-									<ID>Railing Panel</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>Ramp</ID>
-							<Name/>
-							<Description/>
-							<Children>
-								<Item>
-									<ID>Ramp Flight</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-								<Item>
-									<ID>Ramp Landing</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>Roof</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>Shell</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>Slab</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>Stair</ID>
-							<Name/>
-							<Description/>
-							<Children>
-								<Item>
-									<ID>Ladder</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-								<Item>
-									<ID>Stair Riser</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-								<Item>
-									<ID>Stair Flight Structure</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-								<Item>
-									<ID>Stair Landing</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-								<Item>
-									<ID>Stair Tread</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>Wall</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-					</Children>
-				</Item>
-				<Item>
-					<ID>Opening</ID>
-					<Name/>
-					<Description/>
-					<Children>
-						<Item>
-							<ID>Empty Opening</ID>
-							<Name/>
-							<Description/>
-							<Children>
-								<Item>
-									<ID>Opening in Slab</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-								<Item>
-									<ID>Opening in Wall</ID>
-									<Name/>
-									<Description/>
-									<Children/>
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>Door</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>Gate</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>Skylight</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>Window</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-					</Children>
-				</Item>
-				<Item>
 					<ID>Massing</ID>
 					<Name/>
 					<Description/>
@@ -321,7 +30,7 @@
 							<Children/>
 						</Item>
 						<Item>
-							<ID>Site Geometry</ID>
+							<ID>Terrain</ID>
 							<Name/>
 							<Description/>
 							<Children/>
@@ -335,126 +44,406 @@
 					</Children>
 				</Item>
 				<Item>
-					<ID>Element Assembly</ID>
+					<ID>Elements</ID>
 					<Name/>
 					<Description/>
 					<Children>
 						<Item>
-							<ID>Assembled Accessory</ID>
+							<ID>Constructional</ID>
 							<Name/>
 							<Description/>
-							<Children/>
+							<Children>
+								<Item>
+									<ID>Accessory</ID>
+									<Name/>
+									<Description/>
+									<Children/>
+								</Item>
+								<Item>
+									<ID>Beam</ID>
+									<Name/>
+									<Description/>
+									<Children>
+										<Item>
+											<ID>Lintel</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>Column</ID>
+									<Name/>
+									<Description/>
+									<Children/>
+								</Item>
+								<Item>
+									<ID>Covering</ID>
+									<Name/>
+									<Description/>
+									<Children>
+										<Item>
+											<ID>Ceiling</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Cladding</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Flooring</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Insulation</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Membrane</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Roofing</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Sleeving</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Wrapping</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>Curtain Wall</ID>
+									<Name/>
+									<Description/>
+									<Children>
+										<Item>
+											<ID>Curtain Wall Part</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Curtain Wall Panel</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Curtain Wall Frame</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>Footing</ID>
+									<Name/>
+									<Description/>
+									<Children/>
+								</Item>
+								<Item>
+									<ID>Member</ID>
+									<Name/>
+									<Description/>
+									<Children/>
+								</Item>
+								<Item>
+									<ID>Pile</ID>
+									<Name/>
+									<Description/>
+									<Children/>
+								</Item>
+								<Item>
+									<ID>Plate</ID>
+									<Name/>
+									<Description/>
+									<Children/>
+								</Item>
+								<Item>
+									<ID>Railing</ID>
+									<Name/>
+									<Description/>
+									<Children>
+										<Item>
+											<ID>Balustrade</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Rail</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Railing Post</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Railing Panel</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>Ramp</ID>
+									<Name/>
+									<Description/>
+									<Children>
+										<Item>
+											<ID>Ramp Flight</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Ramp Landing</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>Roof</ID>
+									<Name/>
+									<Description/>
+									<Children/>
+								</Item>
+								<Item>
+									<ID>Shell</ID>
+									<Name/>
+									<Description/>
+									<Children/>
+								</Item>
+								<Item>
+									<ID>Slab</ID>
+									<Name/>
+									<Description/>
+									<Children/>
+								</Item>
+								<Item>
+									<ID>Stair</ID>
+									<Name/>
+									<Description/>
+									<Children>
+										<Item>
+											<ID>Ladder</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Stair Riser</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Stair Flight Structure</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Stair Landing</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Stair Tread</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>Wall</ID>
+									<Name/>
+									<Description/>
+									<Children/>
+								</Item>
+							</Children>
 						</Item>
 						<Item>
-							<ID>Arch</ID>
+							<ID>Engineering</ID>
 							<Name/>
 							<Description/>
-							<Children/>
+							<Children>
+								<Item>
+									<ID>MEP Element</ID>
+									<Name/>
+									<Description/>
+									<Children>
+										<Item>
+											<ID>Common</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Ductwork</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Electrical</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Equipment</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Pipework</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Plumbing</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Tray</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>Transport Element</ID>
+									<Name/>
+									<Description/>
+									<Children>
+										<Item>
+											<ID>Elevator</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Escalator</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Moving Walkway</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+									</Children>
+								</Item>
+							</Children>
 						</Item>
 						<Item>
-							<ID>Beam Grid</ID>
+							<ID>Furnishing</ID>
 							<Name/>
 							<Description/>
-							<Children/>
+							<Children>
+								<Item>
+									<ID>Furniture</ID>
+									<Name/>
+									<Description/>
+									<Children/>
+								</Item>
+								<Item>
+									<ID>System Furniture</ID>
+									<Name/>
+									<Description/>
+									<Children/>
+								</Item>
+							</Children>
 						</Item>
 						<Item>
-							<ID>Braced Frame</ID>
+							<ID>Opening</ID>
 							<Name/>
 							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>Girder</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>Rigid Frame</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>Slab Field</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>Truss</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>Ventilation Block</ID>
-							<Name/>
-							<Description>Concrete ventillation block</Description>
-							<Children/>
-						</Item>
-					</Children>
-				</Item>
-				<Item>
-					<ID>Furnishing</ID>
-					<Name/>
-					<Description/>
-					<Children>
-						<Item>
-							<ID>Furniture</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>System Furniture</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-					</Children>
-				</Item>
-				<Item>
-					<ID>MEP Element</ID>
-					<Name/>
-					<Description/>
-					<Children>
-						<Item>
-							<ID>Distribution Control Element</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>Distribution Flow Element</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-					</Children>
-				</Item>
-				<Item>
-					<ID>Transport Element</ID>
-					<Name/>
-					<Description/>
-					<Children>
-						<Item>
-							<ID>Elevator</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>Escalator</ID>
-							<Name/>
-							<Description/>
-							<Children/>
-						</Item>
-						<Item>
-							<ID>Moving Walkway</ID>
-							<Name/>
-							<Description/>
-							<Children/>
+							<Children>
+								<Item>
+									<ID>Empty Opening</ID>
+									<Name/>
+									<Description/>
+									<Children>
+										<Item>
+											<ID>Opening in Slab</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
+											<ID>Opening in Wall</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>Door</ID>
+									<Name/>
+									<Description/>
+									<Children/>
+								</Item>
+								<Item>
+									<ID>Gate</ID>
+									<Name/>
+									<Description/>
+									<Children/>
+								</Item>
+								<Item>
+									<ID>Skylight</ID>
+									<Name/>
+									<Description/>
+									<Children/>
+								</Item>
+								<Item>
+									<ID>Window</ID>
+									<Name/>
+									<Description/>
+									<Children/>
+								</Item>
+							</Children>
 						</Item>
 					</Children>
 				</Item>
@@ -627,6 +616,12 @@
 									<Description/>
 									<Children>
 										<Item>
+											<ID>Glass</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+										<Item>
 											<ID>Precast Metal</ID>
 											<Name/>
 											<Description/>
@@ -640,12 +635,6 @@
 										</Item>
 										<Item>
 											<ID>Precast Timber</ID>
-											<Name/>
-											<Description/>
-											<Children/>
-										</Item>
-										<Item>
-											<ID>Glass</ID>
 											<Name/>
 											<Description/>
 											<Children/>
@@ -972,13 +961,13 @@
 					</Children>
 				</Item>
 				<Item>
-					<ID>Graphic Content</ID>
+					<ID>Graphical</ID>
 					<Name/>
 					<Description/>
 					<Children/>
 				</Item>
 				<Item>
-					<ID>Grid Axis</ID>
+					<ID>Grid</ID>
 					<Name/>
 					<Description/>
 					<Children/>
