@@ -333,10 +333,6 @@
 		<IFCType IFCObject="IfcOpeningElement" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="OPENING"/>
 	</MappingItem>
 	<MappingItem>
-		<ClassificationItem Id="System Furniture"/>
-		<IFCType IFCObject="IfcFurnishingElement" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="EQUIPMENT" IFCTypeObject="IfcSystemFurnitureElementType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="EQUIPMENT"/>
-	</MappingItem>
-	<MappingItem>
 		<ClassificationItem Id="Furniture"/>
 		<IFCType IFCObject="IfcFurnishingElement" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="FURNISHING" IFCTypeObject="IfcFurnitureType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="FURNISHING"/>
 	</MappingItem>
@@ -346,10 +342,6 @@
 	</MappingItem>
 	<MappingItem>
 		<ClassificationItem Id="Constructional"/>
-		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id="Elements"/>
 		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
 	</MappingItem>
 	<MappingItem>
@@ -363,14 +355,6 @@
 	<MappingItem>
 		<ClassificationItem Id="Terrain"/>
 		<IFCType IFCObject="IfcSite" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="TERRAIN"/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id="Pipework"/>
-		<IFCType IFCObject="IfcFlowSegment" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcPipeSegmentType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
-	</MappingItem>
-	<MappingItem>
-		<ClassificationItem Id="Plumbing"/>
-		<IFCType IFCObject="IfcFurnishingElement" IFCObjectPredefinedType="" IFCTypeObject="IfcSystemFurnitureElementType" IFCTypeObjectPredefinedType=""/>
 	</MappingItem>
 	<MappingItem>
 		<ClassificationItem Id="Ductwork"/>
@@ -411,5 +395,21 @@
 	<MappingItem>
 		<ClassificationItem Id="Tray"/>
 		<IFCType IFCObject="IfcDistributionElement" IFCObjectPredefinedType="" IFCTypeObject="IfcCableCarrierSegmentType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Elements"/>
+		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Pipework"/>
+		<IFCType IFCObject="IfcFlowSegment" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcPipeSegmentType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="System Furniture"/>
+		<IFCType IFCObject="IfcFurnishingElement" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="EQUIPMENT" IFCTypeObject="IfcSystemFurnitureElementType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="EQUIPMENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Plumbing"/>
+		<IFCType IFCObject="IfcFlowTerminal" IFCObjectPredefinedType="" IFCTypeObject="IfcSanitaryTerminalType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
 	</MappingItem>
 </IFCTypeMappingItemList>
