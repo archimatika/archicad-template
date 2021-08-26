@@ -2,19 +2,19 @@
 # Maps IFC Class and Type to Revit Category/Sub-Category
 # You may edit using File -> Import/Export Settings -> IFC Options... .
 # -----------------------------------------------------
-IfcAirTerminal		Air Terminals	
-IfcAirTerminalType		Air Terminals	
+IfcAirTerminal		DontImport	
+IfcAirTerminalType		DontImport	
 IfcAnnotation		Generic Annotations	
 IfcBeam		Structural Framing	
 IfcBeamType		Structural Framing	
-IfcBoiler		Mechanical Equipment	
-IfcBoilerType		Mechanical Equipment	
+IfcBoiler		DontImport	
+IfcBoilerType		DontImport	
 IfcBuildingElementPart		Parts	
 IfcBuildingElementPartType		Parts	
-IfcCableCarrierFitting		Cable Tray Fittings	
-IfcCableCarrierFittingType		Cable Tray Fittings	
-IfcCableCarrierSegment		Cable Trays	
-IfcCableCarrierSegmentType		Cable Trays	
+IfcCableCarrierFitting		DontImport	
+IfcCableCarrierFittingType		DontImport	
+IfcCableCarrierSegment		DontImport	
+IfcCableCarrierSegmentType		DontImport	
 IfcColumn		Columns	
 IfcColumn	[LoadBearing]	Structural Columns	
 IfcColumn	COLUMN	Columns	
@@ -25,8 +25,8 @@ IfcColumnType	[LoadBearing]	Structural Columns
 IfcColumnType	COLUMN	Columns	
 IfcColumnType	NOTDEFINED	Columns	
 IfcColumnType	USERDEFINED	Columns	
-IfcController		Specialty Equipment	
-IfcControllerType		Specialty Equipment	
+IfcController		DontImport	
+IfcControllerType		DontImport	
 IfcCovering		Generic Models	
 IfcCovering	CEILING	Ceilings	
 IfcCovering	FLOORING	Floors	
@@ -39,53 +39,44 @@ IfcCurtainWall		Curtain Systems
 IfcCurtainWallType		Curtain Systems	
 IfcDiscreteAccessory		DontImport	
 IfcDiscreteAccessoryType		DontImport	
-#IfcDistributionElement		Mechanical Equipment	
-IfcDistributionElementType		Mechanical Equipment	
-IfcDistributionControlElement		Specialty Equipment	
-IfcDistributionControlElementType		Specialty Equipment	
+IfcDistributionControlElement		DontImport	
+IfcDistributionControlElementType		DontImport	
+IfcDistributionElement		DontImport	
+IfcDistributionElementType		DontImport	
+IfcDistributionPort		DontImport	
 IfcDoor		Doors	
 IfcDoorStyle		Parts	
 IfcDoorType		Doors	
-IfcDuctFitting		Duct Fittings	
-IfcDuctFittingType		Duct Fittings	
-IfcDuctSegment		Ducts	
-IfcDuctSegmentType		Ducts	
-IfcElectricAppliance	DISHWASHER	Plumbing Fixtures	
-IfcElectricAppliance	ELECTRICCOOKER	Electrical Fixtures	
-IfcElectricAppliance	FRIDGE_FREEZER	Specialty Equipment	
-IfcElectricAppliance	TUMBLEDRYER	Electrical Fixtures	
-IfcElectricAppliance	USERDEFINED	Electrical Fixtures	
-IfcElectricAppliance	WASHINGMACHINE	Electrical Fixtures	
-IfcElectricApplianceType	DISHWASHER	Plumbing Fixtures	
-IfcElectricApplianceType	ELECTRICCOOKER	Electrical Fixtures	
-IfcElectricApplianceType	FRIDGE_FREEZER	Specialty Equipment	
-IfcElectricApplianceType	TUMBLEDRYER	Electrical Fixtures	
-IfcElectricApplianceType	USERDEFINED	Electrical Fixtures	
-IfcElectricApplianceType	WASHINGMACHINE	Electrical Fixtures	
-IfcEnergyConversionDevice		Mechanical Equipment	
-IfcFan		Mechanical Equipment	
-IfcFanType		Mechanical Equipment	
-IfcFastener		Structural Connections	
-IfcFastenerType		Structural Connections	
-IfcFireSuppressionTerminal	SPRINKLER	Sprinklers	
-IfcFireSuppressionTerminalType	SPRINKLER	Sprinklers	
-IfcFlowController		Generic Models	
-IfcFlowControllerType		Generic Models	
-IfcFlowMovingDevice		Mechanical Equipment	
-IfcFlowStorageDevice		Specialty Equipment	
-IfcFlowTerminal		Generic Models	
+IfcDuctFitting		DontImport	
+IfcDuctFittingType		DontImport	
+IfcDuctSegment		DontImport	
+IfcDuctSegmentType		DontImport	
+IfcElectricAppliance		DontImport	
+IfcElectricApplianceType		DontImport	
+IfcEnergyConversionDevice		DontImport	
+IfcFan		DontImport	
+IfcFanType		DontImport	
+IfcFastener		DontImport	
+IfcFastenerType		DontImport	
+IfcFireSuppressionTerminal		DontImport	
+IfcFireSuppressionTerminalType		DontImport	
+IfcFlowController		DontImport	
+IfcFlowControllerType		DontImport	
+IfcFlowMovingDevice		DontImport	
+IfcFlowStorageDevice		DontImport	
+IfcFlowTerminal		DontImport	
 IfcFooting		Structural Foundations	
 IfcFootingType		Structural Foundations	
-#IfcFurniture		Furniture	
-IfcFurnitureType		Furniture	
+IfcFurniture		DontImport	
+IfcFurnitureType		DontImport	
 IfcGeographicElement		Site	
 IfcGeographicElementType		Site	
-IfcLamp		Lighting Devices	
-IfcLampType		Lighting Devices	
-IfcLightFixture		Lighting Fixtures	
-IfcLightFixtureType		Lighting Fixtures	
-IfcMechanicalFastener		Specialty Equipment	
-IfcMechanicalFastenerType		Specialty Equipment	
+IfcLamp		DontImport	
+IfcLampType		DontImport	
+IfcLightFixture		DontImport	
+IfcLightFixtureType		DontImport	
+IfcMechanicalFastener		DontImport	
+IfcMechanicalFastenerType		DontImport	
 IfcMember		Structural Framing	
 IfcMember	MULLION	Curtain Wall Mullions	
 IfcMemberType		Structural Framing	
@@ -93,32 +84,32 @@ IfcMemberType	MULLION	Curtain Wall Mullions
 IfcOpeningElement		Mass	
 IfcPile		Structural Foundations	
 IfcPileType		Structural Foundations	
-IfcPipeFitting		Pipe Fittings	
-IfcPipeFittingType		Pipe Fittings	
-IfcPipeSegment		Pipes	
-IfcPipeSegmentType		Pipes	
+IfcPipeFitting		DontImport	
+IfcPipeFittingType		DontImport	
+IfcPipeSegment		DontImport	
+IfcPipeSegmentType		DontImport	
 IfcPlate		Structural Framing	
 IfcPlate	CURTAIN_PANEL	Curtain Panels	
 IfcPlateType		Structural Framing	
 IfcPlateType	CURTAIN_PANEL	Curtain Panels	
-IfcPump		Mechanical Equipment	
-IfcPumpType		Mechanical Equipment	
+IfcPump		DontImport	
+IfcPumpType		DontImport	
 IfcRailing		Railings	
 IfcRailingType		Railings	
 IfcRamp		Ramps	
 IfcRampFlight		Ramps	
 IfcRampFlightType		Ramps	
 IfcRampType		Ramps	
-IfcReinforcingBar		Structural Rebar	
-IfcReinforcingBarType		Structural Rebar	
-IfcReinforcingMesh		Structural Fabric Areas	
-IfcReinforcingMeshType		Structural Fabric Areas	
+IfcReinforcingBar		DontImport	
+IfcReinforcingBarType		DontImport	
+IfcReinforcingMesh		DontImport	
+IfcReinforcingMeshType		DontImport	
 IfcRoof		Roofs	
 IfcRoofType		Roofs	
-IfcSanitaryTerminal		Plumbing Fixtures	
-IfcSanitaryTerminalType		Plumbing Fixtures	
-IfcSensor		Specialty Equipment	
-IfcSensorType		Specialty Equipment	
+IfcSanitaryTerminal		DontImport	
+IfcSanitaryTerminalType		DontImport	
+IfcSensor		DontImport	
+IfcSensorType		DontImport	
 IfcSite		Site	
 IfcSlab		Floors	
 IfcSlab	BASESLAB	Structural Foundations	
@@ -131,27 +122,24 @@ IfcSlabType	FLOOR	Floors
 IfcSlabType	LANDING	Stairs	Landings
 IfcSlabType	ROOF	Roofs	
 IfcSpace		DontImport	
-IfcSpaceHeater		Mechanical Equipment	
-IfcSpaceHeaterType		Mechanical Equipment	
+IfcSpaceHeater		DontImport	
+IfcSpaceHeaterType		DontImport	
 IfcSpaceType		DontImport	
 IfcStair		Stairs	
 IfcStairFlight		Stairs	
 IfcStairFlightType		Stairs	
+IfcStairFlightType	STRAIGHT	Stairs	
 IfcStairType		Stairs	
-IfcSwitchingDevice		Electrical Fixtures	
-IfcSwitchingDeviceType		Electrical Fixtures	
-IfcSystemFurnitureElement		Furniture Systems	
-IfcSystemFurnitureElementType		Furniture Systems	
-IfcTank		Specialty Equipment	
-IfcTankType		Specialty Equipment	
+IfcSwitchingDevice		DontImport	
+IfcSwitchingDeviceType		DontImport	
+IfcSystemFurnitureElement		DontImport	
+IfcSystemFurnitureElementType		DontImport	
+IfcTank		DontImport	
+IfcTankType		DontImport	
 IfcTransportElement		Specialty Equipment	
 IfcTransportElementType		Specialty Equipment	
-IfcValve		Pipe Accessories	
-IfcValve	DRAWOFFCOCK	Plumbing Fixtures	
-IfcValve	FAUCET	Plumbing Fixtures	
-IfcValveType		Pipe Accessories	
-IfcValveType	DRAWOFFCOCK	Plumbing Fixtures	
-IfcValveType	FAUCET	Plumbing Fixtures	
+IfcValve		DontImport	
+IfcValveType		DontImport	
 IfcWall		Walls	
 IfcWallStandardCase		Walls	
 IfcWallType		Walls	
