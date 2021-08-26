@@ -128,7 +128,6 @@ IfcSpaceType		DontImport
 IfcStair		Stairs	
 IfcStairFlight		Stairs	
 IfcStairFlightType		Stairs	
-IfcStairFlightType	STRAIGHT	Stairs	
 IfcStairType		Stairs	
 IfcSwitchingDevice		DontImport	
 IfcSwitchingDeviceType		DontImport	
