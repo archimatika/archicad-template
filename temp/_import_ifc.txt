@@ -17,12 +17,12 @@ IfcCableCarrierSegment		DontImport
 IfcCableCarrierSegmentType		DontImport	
 IfcColumn		Columns	
 IfcColumn	[LoadBearing]	Structural Columns	
-IfcColumn	COLUMN	Columns	
+IfcColumn	COLUMN	Structural Columns	
 IfcColumn	NOTDEFINED	Columns	
 IfcColumn	USERDEFINED	Columns	
 IfcColumnType		Columns	
 IfcColumnType	[LoadBearing]	Structural Columns	
-IfcColumnType	COLUMN	Columns	
+IfcColumnType	COLUMN	Structural Columns	
 IfcColumnType	NOTDEFINED	Columns	
 IfcColumnType	USERDEFINED	Columns	
 IfcController		DontImport	

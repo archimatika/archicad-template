@@ -873,7 +873,9 @@
 				<Rules>
 					<Rule>
 						<GroupValue>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=" 2" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="B8CFC590-58A3-43CF-A159-1B23BD3E8596"/>
+							</SplitValue>
 						</GroupValue>
 					</Rule>
 				</Rules>
@@ -882,7 +884,9 @@
 				<Rules>
 					<Rule>
 						<GroupValue>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=" 2" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="B8CFC590-58A3-43CF-A159-1B23BD3E8596"/>
+							</SplitValue>
 						</GroupValue>
 					</Rule>
 				</Rules>
@@ -957,6 +961,18 @@
 							<SplitValue Index="0" IndexFrom="Start" Separator="2" SplitType="ToFragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="B8CFC590-58A3-43CF-A159-1B23BD3E8596"/>
 							</SplitValue>
+							<TextValue Text=" ("/>
+							<SplitValue Index="0" IndexFrom="Start" Separator="-" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="9C609FB7-E28E-4475-8ADC-E878E78A3858"/>
+							</SplitValue>
+							<TextValue Text=")"/>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="25826253-26F2-4D30-BE1B-0FFBB1314903"/>
 							<TextValue Text=" ("/>
 							<SplitValue Index="0" IndexFrom="Start" Separator="-" SplitType="ToFragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="9C609FB7-E28E-4475-8ADC-E878E78A3858"/>

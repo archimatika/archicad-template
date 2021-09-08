@@ -76,7 +76,14 @@
 									<ID>Column</ID>
 									<Name/>
 									<Description/>
-									<Children/>
+									<Children>
+										<Item>
+											<ID>Structural Column</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+									</Children>
 								</Item>
 								<Item>
 									<ID>Covering</ID>
@@ -971,6 +978,99 @@
 					<Name/>
 					<Description/>
 					<Children/>
+				</Item>
+			</Items>
+		</System>
+		<System>
+			<Name>ARCHICAD Classification</Name>
+			<EditionVersion>v 2.0</EditionVersion>
+			<EditionDate>
+				<Year>2019</Year>
+				<Month>3</Month>
+				<Day>15</Day>
+			</EditionDate>
+			<Description/>
+			<Source>www.graphisoft.com</Source>
+			<Items>
+				<Item>
+					<ID>Elements</ID>
+					<Name/>
+					<Description/>
+					<Children>
+						<Item>
+							<ID>MEP Element</ID>
+							<Name/>
+							<Description/>
+							<Children>
+								<Item>
+									<ID>Distribution Flow Element</ID>
+									<Name/>
+									<Description/>
+									<Children>
+										<Item>
+											<ID>Flow Segment</ID>
+											<Name/>
+											<Description/>
+											<Children>
+												<Item>
+													<ID>Pipe Segment</ID>
+													<Name/>
+													<Description/>
+													<Children/>
+												</Item>
+											</Children>
+										</Item>
+									</Children>
+								</Item>
+							</Children>
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>Materials</ID>
+					<Name/>
+					<Description/>
+					<Children>
+						<Item>
+							<ID>Generic Material</ID>
+							<Name/>
+							<Description/>
+							<Children>
+								<Item>
+									<ID>Generic Structural Material</ID>
+									<Name/>
+									<Description/>
+									<Children>
+										<Item>
+											<ID>Generic In-situ Material</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>Generic Cladding &amp; Finishes</ID>
+									<Name/>
+									<Description/>
+									<Children>
+										<Item>
+											<ID>Generic External Cladding &amp; Finishes</ID>
+											<Name/>
+											<Description/>
+											<Children/>
+										</Item>
+									</Children>
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>Plastic</ID>
+							<Name/>
+							<Description/>
+							<Children/>
+						</Item>
+					</Children>
 				</Item>
 			</Items>
 		</System>
