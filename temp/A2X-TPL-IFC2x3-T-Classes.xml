@@ -297,10 +297,6 @@
 		<IFCType IFCObject="IfcSlab" IFCObjectPredefinedType="FLOOR" IFCTypeObject="IfcSlabType" IFCTypeObjectPredefinedType="FLOOR"/>
 	</MappingItem>
 	<MappingItem>
-		<ClassificationItem Id="Wall"/>
-		<IFCType IFCObject="IfcWall" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="STANDARD" IFCTypeObject="IfcWallType" IFCTypeObjectPredefinedType="STANDARD"/>
-	</MappingItem>
-	<MappingItem>
 		<ClassificationItem Id="Morph"/>
 		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="MORPH" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="MORPH"/>
 	</MappingItem>
@@ -414,6 +410,10 @@
 	</MappingItem>
 	<MappingItem>
 		<ClassificationItem Id="Structural Column"/>
-		<IFCType IFCObject="IfcColumn" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="COLUMN" IFCTypeObject="IfcColumnType" IFCTypeObjectPredefinedType="COLUMN"/>
+		<IFCType IFCObject="IfcColumn" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcColumnType" IFCTypeObjectPredefinedType="COLUMN"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Wall"/>
+		<IFCType IFCObject="IfcWall" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcWallType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
 	</MappingItem>
 </IFCTypeMappingItemList>
