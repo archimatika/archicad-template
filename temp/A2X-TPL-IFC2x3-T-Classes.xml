@@ -409,7 +409,7 @@
 		<IFCType IFCObject="IfcColumn" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcColumnType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
 	</MappingItem>
 	<MappingItem>
-		<ClassificationItem Id="Structural Column"/>
+		<ClassificationItem Id="Column Structural"/>
 		<IFCType IFCObject="IfcColumn" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcColumnType" IFCTypeObjectPredefinedType="COLUMN"/>
 	</MappingItem>
 	<MappingItem>
