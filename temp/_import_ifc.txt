@@ -121,10 +121,10 @@ IfcSlabType	BASESLAB	Structural Foundations
 IfcSlabType	FLOOR	Floors	
 IfcSlabType	LANDING	Stairs	Landings
 IfcSlabType	ROOF	Roofs	
-IfcSpace		DontImport	
+IfcSpace		Rooms	
 IfcSpaceHeater		DontImport	
 IfcSpaceHeaterType		DontImport	
-IfcSpaceType		DontImport	
+IfcSpaceType		Rooms	
 IfcStair		Stairs	
 IfcStairFlight		Stairs	
 IfcStairFlightType		Stairs	
