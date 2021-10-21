@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<BuildingInformation>
+	<PropertyDefinitionGroups>
+		<PropertyDefinitionGroup>
+			<Name>OPENINGS - WD</Name>
+			<Description/>
+			<PropertyDefinitions>
+				<PropertyDefinition>
+					<Name>Opening Component</Name>
+					<Description/>
+					<ValueDescriptor Type="SingleValueDescriptor">
+						<ValueType>String</ValueType>
+					</ValueDescriptor>
+					<MeasureType>Default</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Expression</DefaultValueType>
+						<ExpressionDefaultValue>
+							<Expression>IF ( {Property:A16BA200-27C1-4D1A-9C7F-4F2F9C5C6E21} = "Door", IF ( {Property:B8CFC590-58A3-43CF-A159-1B23BD3E8596} = "Door 25", "Basic", SUBSTITUTE ( {Property:B8CFC590-58A3-43CF-A159-1B23BD3E8596}, "Door", "" ) ), IFS ( {Property:A16BA200-27C1-4D1A-9C7F-4F2F9C5C6E21} = "Window", IF ( {Property:B8CFC590-58A3-43CF-A159-1B23BD3E8596} = "Window 25", "Basic", SUBSTITUTE ( {Property:B8CFC590-58A3-43CF-A159-1B23BD3E8596}, "Window", "" ) ) ) )</Expression>
+						</ExpressionDefaultValue>
+					</DefaultValue>
+					<ClassificationIDs>
+						<ClassificationID>
+							<ItemID>Door</ItemID>
+							<SystemIDName>ARCHICAD Classification</SystemIDName>
+							<SystemIDVersion>2X</SystemIDVersion>
+						</ClassificationID>
+						<ClassificationID>
+							<ItemID>Gate</ItemID>
+							<SystemIDName>ARCHICAD Classification</SystemIDName>
+							<SystemIDVersion>2X</SystemIDVersion>
+						</ClassificationID>
+						<ClassificationID>
+							<ItemID>Skylight</ItemID>
+							<SystemIDName>ARCHICAD Classification</SystemIDName>
+							<SystemIDVersion>2X</SystemIDVersion>
+						</ClassificationID>
+						<ClassificationID>
+							<ItemID>Window</ItemID>
+							<SystemIDName>ARCHICAD Classification</SystemIDName>
+							<SystemIDVersion>2X</SystemIDVersion>
+						</ClassificationID>
+					</ClassificationIDs>
+				</PropertyDefinition>
+			</PropertyDefinitions>
+		</PropertyDefinitionGroup>
+	</PropertyDefinitionGroups>
+</BuildingInformation>
