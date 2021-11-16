@@ -185,10 +185,6 @@
 		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="STAIR_TREAD"/>
 	</MappingItem>
 	<MappingItem>
-		<ClassificationItem Id="Stair Flight Structure"/>
-		<IFCType IFCObject="IfcStairFlight" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="STRAIGHT" IFCTypeObject="IfcStairFlightType" IFCTypeObjectPredefinedType="STRAIGHT"/>
-	</MappingItem>
-	<MappingItem>
 		<ClassificationItem Id="Ramp Landing"/>
 		<IFCType IFCObject="IfcSlab" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcSlabType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
 	</MappingItem>
@@ -201,15 +197,15 @@
 		<IFCType IFCObject="IfcRamp" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="STRAIGHT_RUN_RAMP"/>
 	</MappingItem>
 	<MappingItem>
-		<ClassificationItem Id="Curtain Wall Frame"/>
+		<ClassificationItem Id="Curtain Frame"/>
 		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="STUD" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="STUD"/>
 	</MappingItem>
 	<MappingItem>
-		<ClassificationItem Id="Curtain Wall Panel"/>
+		<ClassificationItem Id="Curtain Panel"/>
 		<IFCType IFCObject="IfcPlate" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcPlateType" IFCTypeObjectPredefinedType="CURTAIN_PANEL"/>
 	</MappingItem>
 	<MappingItem>
-		<ClassificationItem Id="Curtain Wall Part"/>
+		<ClassificationItem Id="Curtain Part"/>
 		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="MEMBER"/>
 	</MappingItem>
 	<MappingItem>
@@ -217,11 +213,11 @@
 		<IFCType IFCObject="IfcPlate" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcPlateType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
 	</MappingItem>
 	<MappingItem>
-		<ClassificationItem Id="Railing Panel"/>
+		<ClassificationItem Id="Panel"/>
 		<IFCType IFCObject="IfcPlate" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcPlateType" IFCTypeObjectPredefinedType="SHEET"/>
 	</MappingItem>
 	<MappingItem>
-		<ClassificationItem Id="Railing Post"/>
+		<ClassificationItem Id="Post"/>
 		<IFCType IFCObject="IfcRailing" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="POST" IFCTypeObject="IfcRailingType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="POST"/>
 	</MappingItem>
 	<MappingItem>
@@ -401,19 +397,23 @@
 		<IFCType IFCObject="IfcFlowTerminal" IFCObjectPredefinedType="" IFCTypeObject="IfcSanitaryTerminalType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
 	</MappingItem>
 	<MappingItem>
-		<ClassificationItem Id="Stair Landing"/>
-		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="LANDING"/>
-	</MappingItem>
-	<MappingItem>
 		<ClassificationItem Id="Column"/>
 		<IFCType IFCObject="IfcColumn" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcColumnType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
 	</MappingItem>
 	<MappingItem>
-		<ClassificationItem Id="Column Structural"/>
+		<ClassificationItem Id=""/>
 		<IFCType IFCObject="IfcColumn" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcColumnType" IFCTypeObjectPredefinedType="COLUMN"/>
 	</MappingItem>
 	<MappingItem>
 		<ClassificationItem Id="Wall"/>
 		<IFCType IFCObject="IfcWall" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcWallType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Stair Flight"/>
+		<IFCType IFCObject="IfcStairFlight" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="STRAIGHT" IFCTypeObject="IfcStairFlightType" IFCTypeObjectPredefinedType="STRAIGHT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Stair Landing"/>
+		<IFCType IFCObject="IfcStairFlight" IFCObjectPredefinedType="USERDEFINED" IFCTypeObject="IfcStairFlightType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
 	</MappingItem>
 </IFCTypeMappingItemList>

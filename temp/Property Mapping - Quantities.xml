@@ -44,8 +44,7 @@
 				<Rules>
 					<Rule>
 						<GroupValue>
-							<TextValue Text="Proxy - "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="A16BA200-27C1-4D1A-9C7F-4F2F9C5C6E21"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 						</GroupValue>
 					</Rule>
 				</Rules>
@@ -56,7 +55,7 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<ACPropertyValue PropertyDefinitionGroupName="BEAMS – Lintels" PropertyDefinitionName="Lintel Bar Material"/>
+							<ACPropertyValue PropertyDefinitionGroupName="BEAMS -- Lintels" PropertyDefinitionName="Lintel Bar Material"/>
 							<TextValue Text=" ("/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="C4B62357-1289-4D43-A3F6-AB02B192864C">
 								<Tool name="Beam_Tool"/>
@@ -66,7 +65,7 @@
 								<Tool name="Beam_Tool"/>
 							</ACBuiltInPropertyValue>
 							<TextValue Text=" * "/>
-							<ACPropertyValue PropertyDefinitionGroupName="BEAMS – Lintels" PropertyDefinitionName="Lintel Bar Number"/>
+							<ACPropertyValue PropertyDefinitionGroupName="BEAMS -- Lintels" PropertyDefinitionName="Lintel Bar Number"/>
 							<TextValue Text=")"/>
 						</GroupValue>
 					</Rule>
@@ -222,7 +221,7 @@
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="204E9AB7-403D-4444-9A98-3105910DB994">
 								<Tool name="RailConnection_Tool"/>
 							</ACBuiltInPropertyValue>
-							<TextValue Text="-"/>
+							<TextValue Text=" - "/>
 							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
 							</SplitValue>
@@ -478,7 +477,7 @@
 								<Tool name="Railing_Tool"/>
 							</ACBuiltInPropertyValue>
 							<TextValue Text=" × "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="43D17CBB-8142-4C75-B36D-32D529D5D75E">
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="7CD8CD64-EC9B-4363-A2D1-35A782196BA6">
 								<Tool name="Railing_Tool"/>
 							</ACBuiltInPropertyValue>
 							<TextValue Text=")"/>
@@ -500,6 +499,8 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="7E221F33-829B-4FBC-A670-E74DABCE6289"/>
+							<TextValue Text=" - "/>
 							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
 							</SplitValue>
@@ -520,6 +521,8 @@
 								<Tool name="Beam_Tool"/>
 							</ACBuiltInPropertyValue>
 							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="7E221F33-829B-4FBC-A670-E74DABCE6289"/>
+							<TextValue Text=" - "/>
 							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
 							</SplitValue>
@@ -538,7 +541,9 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
+							<SplitValue Index="0" IndexFrom="End" Separator="X.000 | " SplitType="FromFragmentAtIndex">
+								<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
+							</SplitValue>
 							<TextValue Text=" (× "/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760"/>
 							<TextValue Text=")"/>
@@ -568,8 +573,8 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<ACPropertyValue PropertyDefinitionGroupName="OPENINGS - WD" PropertyDefinitionName="Opening Marker"/>
-							<TextValue Text=" "/>
+							<ACPropertyValue PropertyDefinitionGroupName="OPENINGS -- WD" PropertyDefinitionName="Opening Marker"/>
+							<TextValue Text=" - "/>
 							<SplitValue Index="0" IndexFrom="Start" Separator=" 2" SplitType="ToFragmentAtIndex">
 								<ACPropertyValue PropertyDefinitionGroupName="OPENINGS - WD" PropertyDefinitionName="Opening Component"/>
 							</SplitValue>
@@ -588,8 +593,8 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<ACPropertyValue PropertyDefinitionGroupName="OPENINGS - WD" PropertyDefinitionName="Opening Marker"/>
-							<TextValue Text=" "/>
+							<ACPropertyValue PropertyDefinitionGroupName="OPENINGS -- WD" PropertyDefinitionName="Opening Marker"/>
+							<TextValue Text=" - "/>
 							<SplitValue Index="0" IndexFrom="Start" Separator=" 2" SplitType="ToFragmentAtIndex">
 								<ACPropertyValue PropertyDefinitionGroupName="OPENINGS - WD" PropertyDefinitionName="Opening Component"/>
 							</SplitValue>
@@ -608,7 +613,9 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
+							<SplitValue Index="0" IndexFrom="End" Separator="X.000 | " SplitType="FromFragmentAtIndex">
+								<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
+							</SplitValue>
 							<TextValue Text=" (× "/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760"/>
 							<TextValue Text=")"/>
@@ -655,7 +662,9 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
+							<SplitValue Index="0" IndexFrom="End" Separator="X.000 | " SplitType="FromFragmentAtIndex">
+								<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
+							</SplitValue>
 							<TextValue Text=" (× "/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760"/>
 							<TextValue Text=")"/>
@@ -716,7 +725,9 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
+							</SplitValue>
 							<TextValue Text=" ("/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E"/>
 							<TextValue Text=" × "/>
@@ -793,7 +804,7 @@
 								<Tool name="RailingPanel_Tool"/>
 							</ACBuiltInPropertyValue>
 							<TextValue Text=" - "/>
-							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="FragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
 							</SplitValue>
 							<TextValue Text=" ("/>
@@ -831,24 +842,61 @@
 				<Rules>
 					<Rule>
 						<GroupValue>
-							<SplitValue Index="0" IndexFrom="Start" Separator="Frame" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="CA027164-F0BE-4B63-BCA7-3726A34B3DC3">
-									<Tool name="CWFrame_Tool"/>
-								</ACBuiltInPropertyValue>
-							</SplitValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5">
+								<Tool name="CWFrame_Tool"/>
+							</ACBuiltInPropertyValue>
 							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="773AE220-E624-4FBA-8B8F-D56BB8FF6875">
+								<Tool name="CWFrame_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text="*"/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="7E221F33-829B-4FBC-A670-E74DABCE6289"/>
-							<TextValue Text=" "/>
-							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
-							</SplitValue>
+							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="C9EDA02D-EA3A-4604-9E25-DD597361F472">
+								<Tool name="CWFrame_Tool"/>
+							</ACBuiltInPropertyValue>
 							<TextValue Text=" ("/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E">
+								<Tool name="CWFrame_Tool"/>
+							</ACBuiltInPropertyValue>
 							<TextValue Text=" × "/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="C48F6B20-E236-42E0-8A4B-4FA6642F10FA">
 								<Tool name="CWFrame_Tool"/>
 							</ACBuiltInPropertyValue>
 							<TextValue Text=")"/>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5">
+								<Tool name="CWPanel_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="773AE220-E624-4FBA-8B8F-D56BB8FF6875">
+								<Tool name="CWPanel_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text="*"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="7E221F33-829B-4FBC-A670-E74DABCE6289">
+								<Tool name="CWPanel_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="C9EDA02D-EA3A-4604-9E25-DD597361F472">
+								<Tool name="CWPanel_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" ("/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="E1C08F93-6CA2-4B92-AB6C-86F4D32F985D">
+								<Tool name="CWPanel_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" × "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="8F513AD0-344B-4066-BED8-C7183A70C06F">
+								<Tool name="CWPanel_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=")"/>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 						</GroupValue>
 					</Rule>
 				</Rules>
@@ -882,115 +930,21 @@
 					</Rule>
 				</Rules>
 			</RulesTableItem>
-			<RulesTableItem IFCEntityType="IfcDoorStyle">
+			<RulesTableItem IFCEntityType="IfcDiscreteAccessory">
 				<Rules>
-					<Rule>
-						<GroupValue>
-							<SplitValue Index="0" IndexFrom="Start" Separator=" 2" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="B8CFC590-58A3-43CF-A159-1B23BD3E8596"/>
-							</SplitValue>
-						</GroupValue>
-					</Rule>
-				</Rules>
-			</RulesTableItem>
-			<RulesTableItem IFCEntityType="IfcWindowStyle">
-				<Rules>
-					<Rule>
-						<GroupValue>
-							<SplitValue Index="0" IndexFrom="Start" Separator=" 2" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="B8CFC590-58A3-43CF-A159-1B23BD3E8596"/>
-							</SplitValue>
-						</GroupValue>
-					</Rule>
-				</Rules>
-			</RulesTableItem>
-			<RulesTableItem IFCEntityType="IfcFurnitureType">
-				<Rules>
-					<Rule>
-						<GroupValue>
-							<SplitValue Index="0" IndexFrom="Start" Separator="2" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="B8CFC590-58A3-43CF-A159-1B23BD3E8596"/>
-							</SplitValue>
-							<TextValue Text=" ("/>
-							<SplitValue Index="0" IndexFrom="Start" Separator="-" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="9C609FB7-E28E-4475-8ADC-E878E78A3858"/>
-							</SplitValue>
-							<TextValue Text=")"/>
-						</GroupValue>
-					</Rule>
-				</Rules>
-			</RulesTableItem>
-			<RulesTableItem IFCEntityType="IfcSystemFurnitureElementType">
-				<Rules>
-					<Rule>
-						<GroupValue>
-							<SplitValue Index="0" IndexFrom="Start" Separator="2" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="B8CFC590-58A3-43CF-A159-1B23BD3E8596"/>
-							</SplitValue>
-							<TextValue Text=" ("/>
-							<SplitValue Index="0" IndexFrom="Start" Separator="-" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="9C609FB7-E28E-4475-8ADC-E878E78A3858"/>
-							</SplitValue>
-							<TextValue Text=")"/>
-						</GroupValue>
-					</Rule>
-				</Rules>
-			</RulesTableItem>
-			<RulesTableItem IFCEntityType="IfcSpatialElementType">
-				<Rules>
-					<Rule>
-						<GroupValue>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="C55E9728-EB60-40A2-AA76-77B061FA4ADA">
-								<Tool name="Room_Tool"/>
-							</ACBuiltInPropertyValue>
-						</GroupValue>
-					</Rule>
-				</Rules>
-			</RulesTableItem>
-			<RulesTableItem IFCEntityType="IfcSanitaryTerminalType">
-				<Rules>
-					<Rule>
-						<GroupValue>
-							<SplitValue Index="0" IndexFrom="Start" Separator="2" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="B8CFC590-58A3-43CF-A159-1B23BD3E8596"/>
-							</SplitValue>
-							<TextValue Text=" ("/>
-							<SplitValue Index="0" IndexFrom="Start" Separator="-" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="9C609FB7-E28E-4475-8ADC-E878E78A3858"/>
-							</SplitValue>
-							<TextValue Text=")"/>
-						</GroupValue>
-					</Rule>
-				</Rules>
-			</RulesTableItem>
-			<RulesTableItem IFCEntityType="IfcDistributionElementType">
-				<Rules>
-					<Rule>
-						<GroupValue>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5">
-								<Tool name="Symb_Tool"/>
-							</ACBuiltInPropertyValue>
-							<TextValue Text=" - "/>
-							<SplitValue Index="0" IndexFrom="Start" Separator="2" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="B8CFC590-58A3-43CF-A159-1B23BD3E8596"/>
-							</SplitValue>
-							<TextValue Text=" ("/>
-							<SplitValue Index="0" IndexFrom="Start" Separator="-" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="9C609FB7-E28E-4475-8ADC-E878E78A3858"/>
-							</SplitValue>
-							<TextValue Text=")"/>
-						</GroupValue>
-					</Rule>
 					<Rule>
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
-							<TextValue Text=" - "/>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="B8CFC590-58A3-43CF-A159-1B23BD3E8596"/>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="25826253-26F2-4D30-BE1B-0FFBB1314903"/>
-							<TextValue Text=" ("/>
-							<SplitValue Index="0" IndexFrom="Start" Separator="-" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="9C609FB7-E28E-4475-8ADC-E878E78A3858"/>
-							</SplitValue>
-							<TextValue Text=")"/>
 						</GroupValue>
 					</Rule>
 				</Rules>
@@ -1017,7 +971,9 @@
 				<Rules>
 					<Rule>
 						<GroupValue>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="A16BA200-27C1-4D1A-9C7F-4F2F9C5C6E21"/>
+							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="25826253-26F2-4D30-BE1B-0FFBB1314903"/>
 						</GroupValue>
 					</Rule>
 				</Rules>
@@ -1050,4 +1006,857 @@
 			</RulesTableItem>
 		</RulesTable>
 	</SchemeAttribute>
+	<SchemeProperty IFCEntityType="IfcBuildingElementProxy" PropertySetName="Pset_BuildingElementProxyCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcBuildingElementProxy">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Bearing"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>LoadBearing</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcBuildingElementProxy" PropertySetName="Pset_BuildingElementProxyCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcBuildingElementProxy">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Position"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>IsExternal</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcWall" PropertySetName="Pset_WallCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcWall">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Bearing"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>LoadBearing</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcWall" PropertySetName="Pset_WallCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcWall">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Position"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>IsExternal</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcBeam" PropertySetName="Pset_BeamCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcBeam">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Bearing"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>LoadBearing</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcBeam" PropertySetName="Pset_BeamCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcBeam">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Position"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>IsExternal</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcColumn" PropertySetName="Pset_ColumnCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcColumn">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Bearing"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>LoadBearing</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcColumn" PropertySetName="Pset_ColumnCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcColumn">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Position"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>IsExternal</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcFooting" PropertySetName="Pset_FootingCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcFooting">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Bearing"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>LoadBearing</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcFooting" PropertySetName="Pset_FootingCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcFooting">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Position"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>IsExternal</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcMember" PropertySetName="Pset_MemberCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcMember">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Bearing"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>LoadBearing</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcMember" PropertySetName="Pset_MemberCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcMember">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Position"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>IsExternal</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcPile" PropertySetName="Pset_PileCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcPile">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Bearing"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>LoadBearing</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcPile" PropertySetName="Pset_PileCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcPile">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Position"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>IsExternal</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcPlate" PropertySetName="Pset_PlateCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcPlate">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Bearing"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>LoadBearing</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcPlate" PropertySetName="Pset_PlateCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcPlate">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Position"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>IsExternal</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcRamp" PropertySetName="Pset_RampCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcRamp">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Bearing"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>LoadBearing</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcRamp" PropertySetName="Pset_RampCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcRamp">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Position"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>IsExternal</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcRoof" PropertySetName="Pset_RoofCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcRoof">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Bearing"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>LoadBearing</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcRoof" PropertySetName="Pset_RoofCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcRoof">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Position"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>IsExternal</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcSlab" PropertySetName="Pset_SlabCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcSlab">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Bearing"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>LoadBearing</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcSlab" PropertySetName="Pset_SlabCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcSlab">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Position"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>IsExternal</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcStair" PropertySetName="Pset_StairCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcStair">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Bearing"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>LoadBearing</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcStair" PropertySetName="Pset_StairCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcStair">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Position"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>IsExternal</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcStair" PropertySetName="Pset_StairCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcStair">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<LibpartParamaterValue LibpartMainGuid="00000000-0000-0000-0000-000000000000" ParameterName="rnu" ParameterType="Integer"/>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="4FFCB82F-1D60-4262-85B9-EC6FEC785D40">
+								<Tool name="Stair_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>NumberOfRiser</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcCountMeasure"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcStair" PropertySetName="Pset_StairCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcStair">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<LibpartParamaterValue LibpartMainGuid="00000000-0000-0000-0000-000000000000" ParameterName="gs_onorm_treadnumber" ParameterType="CString"/>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="1108D4D8-BDFB-491D-B527-C1779EE03209">
+								<Tool name="Stair_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>NumberOfTreads</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcCountMeasure"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcStair" PropertySetName="Pset_StairCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcStair">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<LibpartParamaterValue LibpartMainGuid="00000000-0000-0000-0000-000000000000" ParameterName="ifc_RiserHeight" ParameterType="Length"/>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="CD511852-FB66-426B-AC5B-DDAC12817792">
+								<Tool name="Stair_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>RiserHeight</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcPositiveLengthMeasure"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcStair" PropertySetName="Pset_StairCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcStair">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<LibpartParamaterValue LibpartMainGuid="00000000-0000-0000-0000-000000000000" ParameterName="FM_HeadRoom" ParameterType="RealNum"/>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="8EC256D5-C747-4778-A4BF-99047C25F4AF">
+								<Tool name="Stair_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>RequiredHeadroom</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcPositiveLengthMeasure"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcStairFlight" PropertySetName="Pset_StairFlightCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcStairFlight">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Bearing"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>LoadBearing</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcStairFlight" PropertySetName="Pset_StairFlightCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcStairFlight">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Position"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>IsExternal</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcRampFlight" PropertySetName="Pset_RampCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcRampFlight">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Bearing"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>LoadBearing</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcRampFlight" PropertySetName="Pset_RampCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcRampFlight">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Position"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>IsExternal</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcWindow" PropertySetName="Pset_WindowCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcWindow">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Position"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>IsExternal</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcRailing" PropertySetName="Pset_RailingCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcRailing">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Position"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>IsExternal</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcDoor" PropertySetName="Pset_DoorCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcDoor">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Position"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>IsExternal</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcCurtainWall" PropertySetName="Pset_CurtainWall">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcCurtainWall">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Position"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>IsExternal</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcCovering" PropertySetName="Pset_CoveringCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcCovering">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACPropertyValue PropertyDefinitionGroupName="ALL" PropertyDefinitionName="Element Position"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>IsExternal</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcBoolean"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcSpace" PropertySetName="Pset_SpaceCommon">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcSpace">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="0B987FC1-B684-4BDE-B384-23E6397E3901">
+								<Tool name="Room_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="C55E9728-EB60-40A2-AA76-77B061FA4ADA">
+								<Tool name="Room_Tool"/>
+							</ACBuiltInPropertyValue>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>Category</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcLabel"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
+	<SchemeProperty IFCEntityType="IfcSpace" PropertySetName="ARM_SpaceData">
+		<RulesTable>
+			<RulesTableItem IFCEntityType="IfcSpace">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="7E221F33-829B-4FBC-A670-E74DABCE6289"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+		</RulesTable>
+		<PropertyDef>
+			<Name>Apartment</Name>
+			<PropertyType>
+				<TypePropertySingleValue>
+					<DataType type="IfcIdentifier"/>
+				</TypePropertySingleValue>
+			</PropertyType>
+		</PropertyDef>
+	</SchemeProperty>
 </SchemeItemList>
