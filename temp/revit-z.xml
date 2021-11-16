@@ -48,14 +48,6 @@
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="A16BA200-27C1-4D1A-9C7F-4F2F9C5C6E21"/>
 						</GroupValue>
 					</Rule>
-					<Rule>
-						<GroupValue>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="A16BA200-27C1-4D1A-9C7F-4F2F9C5C6E21">
-								<Tool name="Symb_Tool"/>
-							</ACBuiltInPropertyValue>
-							<LibpartParamaterValue LibpartMainGuid="B286E7FF-8856-42D5-B293-6084B1784DB2" ParameterName="AC_MarkerText_1" ParameterType="CString"/>
-						</GroupValue>
-					</Rule>
 				</Rules>
 			</RulesTableItem>
 			<RulesTableItem IFCEntityType="IfcBeam">
@@ -82,13 +74,7 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="B9179DB7-97BC-4985-94DC-06C201F79EF4"/>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="20CF3744-CA2D-4FB2-ACBC-F69C619AE362"/>
-							</SplitValue>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="EAB6C4F7-A51F-4C13-BDBD-A72D4EFE9EC6"/>
-							</SplitValue>
+							<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
 							<TextValue Text=" ("/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E"/>
 							<TextValue Text=" × "/>
@@ -104,13 +90,7 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="B9179DB7-97BC-4985-94DC-06C201F79EF4"/>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="20CF3744-CA2D-4FB2-ACBC-F69C619AE362"/>
-							</SplitValue>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="EAB6C4F7-A51F-4C13-BDBD-A72D4EFE9EC6"/>
-							</SplitValue>
+							<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
 							<TextValue Text=" ("/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="9CBD7B28-F475-4B54-9375-A89A94F252EC">
 								<Tool name="Wall_Tool"/>
@@ -124,13 +104,7 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="B9179DB7-97BC-4985-94DC-06C201F79EF4"/>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="20CF3744-CA2D-4FB2-ACBC-F69C619AE362"/>
-							</SplitValue>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="EAB6C4F7-A51F-4C13-BDBD-A72D4EFE9EC6"/>
-							</SplitValue>
+							<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
 							<TextValue Text=" ("/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="830C1AC3-4B51-4F61-86F4-8CE0F8E4B828"/>
 							<TextValue Text=" × "/>
@@ -146,13 +120,7 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="B9179DB7-97BC-4985-94DC-06C201F79EF4"/>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="20CF3744-CA2D-4FB2-ACBC-F69C619AE362"/>
-							</SplitValue>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="EAB6C4F7-A51F-4C13-BDBD-A72D4EFE9EC6"/>
-							</SplitValue>
+							<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
 							<TextValue Text=" ("/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="FE71F960-6AEF-4B5B-9E65-08CA27E07AFF"/>
 							<TextValue Text=" × "/>
@@ -168,13 +136,7 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="B9179DB7-97BC-4985-94DC-06C201F79EF4"/>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="20CF3744-CA2D-4FB2-ACBC-F69C619AE362"/>
-							</SplitValue>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="EAB6C4F7-A51F-4C13-BDBD-A72D4EFE9EC6"/>
-							</SplitValue>
+							<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
 							<TextValue Text=" ("/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="9CBD7B28-F475-4B54-9375-A89A94F252EC">
 								<Tool name="Wall_Tool"/>
@@ -188,13 +150,7 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="B9179DB7-97BC-4985-94DC-06C201F79EF4"/>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="20CF3744-CA2D-4FB2-ACBC-F69C619AE362"/>
-							</SplitValue>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="EAB6C4F7-A51F-4C13-BDBD-A72D4EFE9EC6"/>
-							</SplitValue>
+							<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
 							<TextValue Text=" ("/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="830C1AC3-4B51-4F61-86F4-8CE0F8E4B828"/>
 							<TextValue Text=" × "/>
@@ -209,6 +165,14 @@
 					<Rule>
 						<GroupValue>
 							<TextValue Text="Rail - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="773AE220-E624-4FBA-8B8F-D56BB8FF6875">
+								<Tool name="Rail_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text="*"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="204E9AB7-403D-4444-9A98-3105910DB994">
+								<Tool name="Rail_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" - "/>
 							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
 							</SplitValue>
@@ -226,6 +190,14 @@
 					<Rule>
 						<GroupValue>
 							<TextValue Text="Rail - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="773AE220-E624-4FBA-8B8F-D56BB8FF6875">
+								<Tool name="RailEnd_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text="*"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="204E9AB7-403D-4444-9A98-3105910DB994">
+								<Tool name="RailEnd_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" - "/>
 							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
 							</SplitValue>
@@ -243,6 +215,14 @@
 					<Rule>
 						<GroupValue>
 							<TextValue Text="Rail - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="773AE220-E624-4FBA-8B8F-D56BB8FF6875">
+								<Tool name="RailConnection_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text="*"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="204E9AB7-403D-4444-9A98-3105910DB994">
+								<Tool name="RailConnection_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text="-"/>
 							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
 							</SplitValue>
@@ -259,7 +239,15 @@
 					</Rule>
 					<Rule>
 						<GroupValue>
-							<TextValue Text="Handrail - "/>
+							<TextValue Text="Rail - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="773AE220-E624-4FBA-8B8F-D56BB8FF6875">
+								<Tool name="Handrail_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text="*"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="204E9AB7-403D-4444-9A98-3105910DB994">
+								<Tool name="Handrail_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" - "/>
 							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
 							</SplitValue>
@@ -276,7 +264,15 @@
 					</Rule>
 					<Rule>
 						<GroupValue>
-							<TextValue Text="Handrail - "/>
+							<TextValue Text="Rail - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="773AE220-E624-4FBA-8B8F-D56BB8FF6875">
+								<Tool name="HandrailEnd_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text="*"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="204E9AB7-403D-4444-9A98-3105910DB994">
+								<Tool name="HandrailEnd_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" - "/>
 							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
 							</SplitValue>
@@ -293,7 +289,15 @@
 					</Rule>
 					<Rule>
 						<GroupValue>
-							<TextValue Text="Handrail - "/>
+							<TextValue Text="Rail - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="773AE220-E624-4FBA-8B8F-D56BB8FF6875">
+								<Tool name="HandrailConnection_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text="*"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="204E9AB7-403D-4444-9A98-3105910DB994">
+								<Tool name="HandrailConnection_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" - "/>
 							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
 							</SplitValue>
@@ -310,7 +314,15 @@
 					</Rule>
 					<Rule>
 						<GroupValue>
-							<TextValue Text="Toprail - "/>
+							<TextValue Text="Rail - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="773AE220-E624-4FBA-8B8F-D56BB8FF6875">
+								<Tool name="Toprail_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text="*"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="204E9AB7-403D-4444-9A98-3105910DB994">
+								<Tool name="Toprail_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" - "/>
 							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
 							</SplitValue>
@@ -327,7 +339,15 @@
 					</Rule>
 					<Rule>
 						<GroupValue>
-							<TextValue Text="Toprail - "/>
+							<TextValue Text="Rail - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="773AE220-E624-4FBA-8B8F-D56BB8FF6875">
+								<Tool name="ToprailEnd_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text="*"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="204E9AB7-403D-4444-9A98-3105910DB994">
+								<Tool name="ToprailEnd_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" - "/>
 							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
 							</SplitValue>
@@ -344,7 +364,15 @@
 					</Rule>
 					<Rule>
 						<GroupValue>
-							<TextValue Text="Toprail - "/>
+							<TextValue Text="Rail - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="773AE220-E624-4FBA-8B8F-D56BB8FF6875">
+								<Tool name="ToprailConnection_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text="*"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="204E9AB7-403D-4444-9A98-3105910DB994">
+								<Tool name="ToprailConnection_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" - "/>
 							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="FromFragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
 							</SplitValue>
@@ -362,6 +390,14 @@
 					<Rule>
 						<GroupValue>
 							<TextValue Text="Baluster - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="773AE220-E624-4FBA-8B8F-D56BB8FF6875">
+								<Tool name="Baluster_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text="*"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="204E9AB7-403D-4444-9A98-3105910DB994">
+								<Tool name="Baluster_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" - "/>
 							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
 							</SplitValue>
@@ -378,7 +414,15 @@
 					</Rule>
 					<Rule>
 						<GroupValue>
-							<TextValue Text="Inner Post - "/>
+							<TextValue Text="Post - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="773AE220-E624-4FBA-8B8F-D56BB8FF6875">
+								<Tool name="InnerPost_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text="*"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="204E9AB7-403D-4444-9A98-3105910DB994">
+								<Tool name="InnerPost_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" - "/>
 							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
 							</SplitValue>
@@ -395,7 +439,15 @@
 					</Rule>
 					<Rule>
 						<GroupValue>
-							<TextValue Text="Railing Post - "/>
+							<TextValue Text="Post - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="773AE220-E624-4FBA-8B8F-D56BB8FF6875">
+								<Tool name="RailingPost_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text="*"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="204E9AB7-403D-4444-9A98-3105910DB994">
+								<Tool name="RailingPost_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" - "/>
 							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="FromFragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
 							</SplitValue>
@@ -434,11 +486,14 @@
 					</Rule>
 					<Rule>
 						<GroupValue>
-							<SplitValue Index="0" IndexFrom="Start" Separator="(Railing)" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="A16BA200-27C1-4D1A-9C7F-4F2F9C5C6E21">
-									<Tool name="RailingSegment_Tool"/>
-								</ACBuiltInPropertyValue>
-							</SplitValue>
+							<TextValue Text="Segment - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="773AE220-E624-4FBA-8B8F-D56BB8FF6875">
+								<Tool name="RailingSegment_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text="*"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="204E9AB7-403D-4444-9A98-3105910DB994">
+								<Tool name="RailingSegment_Tool"/>
+							</ACBuiltInPropertyValue>
 						</GroupValue>
 					</Rule>
 					<Rule>
@@ -483,13 +538,7 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="B9179DB7-97BC-4985-94DC-06C201F79EF4"/>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="20CF3744-CA2D-4FB2-ACBC-F69C619AE362"/>
-							</SplitValue>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="EAB6C4F7-A51F-4C13-BDBD-A72D4EFE9EC6"/>
-							</SplitValue>
+							<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
 							<TextValue Text=" (× "/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760"/>
 							<TextValue Text=")"/>
@@ -503,13 +552,7 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="B9179DB7-97BC-4985-94DC-06C201F79EF4"/>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="20CF3744-CA2D-4FB2-ACBC-F69C619AE362"/>
-							</SplitValue>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="EAB6C4F7-A51F-4C13-BDBD-A72D4EFE9EC6"/>
-							</SplitValue>
+							<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
 							<TextValue Text=" (× "/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="9CBD7B28-F475-4B54-9375-A89A94F252EC">
 								<Tool name="Wall_Tool"/>
@@ -525,12 +568,11 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<SplitValue Index="0" IndexFrom="Start" Separator=" 2" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="B8CFC590-58A3-43CF-A159-1B23BD3E8596"/>
-							</SplitValue>
-							<TextValue Text=" "/>
 							<ACPropertyValue PropertyDefinitionGroupName="OPENINGS - WD" PropertyDefinitionName="Opening Marker"/>
 							<TextValue Text=" "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=" 2" SplitType="ToFragmentAtIndex">
+								<ACPropertyValue PropertyDefinitionGroupName="OPENINGS - WD" PropertyDefinitionName="Opening Component"/>
+							</SplitValue>
 							<TextValue Text=" ("/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E"/>
 							<TextValue Text=" × "/>
@@ -546,12 +588,11 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<SplitValue Index="0" IndexFrom="Start" Separator=" 2" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="B8CFC590-58A3-43CF-A159-1B23BD3E8596"/>
-							</SplitValue>
-							<TextValue Text=" "/>
 							<ACPropertyValue PropertyDefinitionGroupName="OPENINGS - WD" PropertyDefinitionName="Opening Marker"/>
 							<TextValue Text=" "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=" 2" SplitType="ToFragmentAtIndex">
+								<ACPropertyValue PropertyDefinitionGroupName="OPENINGS - WD" PropertyDefinitionName="Opening Component"/>
+							</SplitValue>
 							<TextValue Text=" ("/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E"/>
 							<TextValue Text=" × "/>
@@ -567,13 +608,7 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="B9179DB7-97BC-4985-94DC-06C201F79EF4"/>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="20CF3744-CA2D-4FB2-ACBC-F69C619AE362"/>
-							</SplitValue>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="EAB6C4F7-A51F-4C13-BDBD-A72D4EFE9EC6"/>
-							</SplitValue>
+							<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
 							<TextValue Text=" (× "/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760"/>
 							<TextValue Text=")"/>
@@ -620,13 +655,7 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="B9179DB7-97BC-4985-94DC-06C201F79EF4"/>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="20CF3744-CA2D-4FB2-ACBC-F69C619AE362"/>
-							</SplitValue>
-							<SplitValue Index="1" IndexFrom="Start" Separator=" " SplitType="FromFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="EAB6C4F7-A51F-4C13-BDBD-A72D4EFE9EC6"/>
-							</SplitValue>
+							<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
 							<TextValue Text=" (× "/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760"/>
 							<TextValue Text=")"/>
@@ -640,16 +669,14 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
-							</SplitValue>
+							<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
 							<TextValue Text=" ("/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="47A12A42-8E77-4EE0-A0AC-5C07A99550AB">
-								<Tool name="Riser_Tool"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="CD511852-FB66-426B-AC5B-DDAC12817792">
+								<Tool name="Stair_Tool"/>
 							</ACBuiltInPropertyValue>
 							<TextValue Text=" × "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="436F1784-5B01-4F53-91BD-BA96D459E504">
-								<Tool name="Riser_Tool"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="55F9F389-C7CF-4661-B603-5B3A0591CB21">
+								<Tool name="Stair_Tool"/>
 							</ACBuiltInPropertyValue>
 							<TextValue Text=")"/>
 						</GroupValue>
@@ -658,27 +685,7 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
-							</SplitValue>
-							<TextValue Text=" ("/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="1FF600C1-3413-4C57-8699-3DF1D0EFE204">
-								<Tool name="Tread_Tool"/>
-							</ACBuiltInPropertyValue>
-							<TextValue Text=" × "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="436F1784-5B01-4F53-91BD-BA96D459E504">
-								<Tool name="Tread_Tool"/>
-							</ACBuiltInPropertyValue>
-							<TextValue Text=")"/>
-						</GroupValue>
-					</Rule>
-					<Rule>
-						<GroupValue>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
-							<TextValue Text=" - "/>
-							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
-							</SplitValue>
+							<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
 						</GroupValue>
 					</Rule>
 				</Rules>
@@ -687,14 +694,17 @@
 				<Rules>
 					<Rule>
 						<GroupValue>
-							<TextValue Text="Stair Flight - "/>
-							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F">
-									<Tool name="StairStructure_Tool"/>
-								</ACBuiltInPropertyValue>
-							</SplitValue>
-							<TextValue Text=" (× "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+							<TextValue Text=" - "/>
+							<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
+							<TextValue Text=" ("/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760">
+								<Tool name="StairStructure_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text=" × "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E">
+								<Tool name="StairStructure_Tool"/>
+							</ACBuiltInPropertyValue>
 							<TextValue Text=")"/>
 						</GroupValue>
 					</Rule>
@@ -706,9 +716,7 @@
 						<GroupValue>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
 							<TextValue Text=" - "/>
-							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
-							</SplitValue>
+							<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
 							<TextValue Text=" ("/>
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E"/>
 							<TextValue Text=" × "/>
@@ -776,29 +784,16 @@
 				<Rules>
 					<Rule>
 						<GroupValue>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="B2A4DCAB-7519-409B-A84C-CDE5793C9C09">
-								<Tool name="CWPanel_Tool"/>
+							<TextValue Text="Railing Panel - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="773AE220-E624-4FBA-8B8F-D56BB8FF6875">
+								<Tool name="RailingPanel_Tool"/>
+							</ACBuiltInPropertyValue>
+							<TextValue Text="*"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="204E9AB7-403D-4444-9A98-3105910DB994">
+								<Tool name="RailingPanel_Tool"/>
 							</ACBuiltInPropertyValue>
 							<TextValue Text=" - "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="7E221F33-829B-4FBC-A670-E74DABCE6289"/>
-							<TextValue Text=" "/>
 							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
-								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
-							</SplitValue>
-							<TextValue Text=" ("/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E"/>
-							<TextValue Text=" × "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="C4B62357-1289-4D43-A3F6-AB02B192864C"/>
-							<TextValue Text=")"/>
-						</GroupValue>
-					</Rule>
-					<Rule>
-						<GroupValue>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
-							<TextValue Text=" - "/>
-							<ACBuiltInPropertyValue PropertyDefinitionGuid="A16BA200-27C1-4D1A-9C7F-4F2F9C5C6E21"/>
-							<TextValue Text=" "/>
-							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="FragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
 							</SplitValue>
 							<TextValue Text=" ("/>
@@ -809,6 +804,24 @@
 							<ACBuiltInPropertyValue PropertyDefinitionGuid="C4B62357-1289-4D43-A3F6-AB02B192864C">
 								<Tool name="RailingPanel_Tool"/>
 							</ACBuiltInPropertyValue>
+							<TextValue Text=")"/>
+						</GroupValue>
+					</Rule>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+							<TextValue Text=" - "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="773AE220-E624-4FBA-8B8F-D56BB8FF6875"/>
+							<TextValue Text="*"/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="7E221F33-829B-4FBC-A670-E74DABCE6289"/>
+							<TextValue Text=" - "/>
+							<SplitValue Index="0" IndexFrom="Start" Separator=";" SplitType="ToFragmentAtIndex">
+								<ACBuiltInPropertyValue PropertyDefinitionGuid="44C7C173-A14B-485E-9D64-DDF95465607F"/>
+							</SplitValue>
+							<TextValue Text=" ("/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="3799B10A-61C5-4566-BF9C-EAA9CE49196E"/>
+							<TextValue Text=" × "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="C4B62357-1289-4D43-A3F6-AB02B192864C"/>
 							<TextValue Text=")"/>
 						</GroupValue>
 					</Rule>
@@ -977,6 +990,20 @@
 							<SplitValue Index="0" IndexFrom="Start" Separator="-" SplitType="ToFragmentAtIndex">
 								<ACBuiltInPropertyValue PropertyDefinitionGuid="9C609FB7-E28E-4475-8ADC-E878E78A3858"/>
 							</SplitValue>
+							<TextValue Text=")"/>
+						</GroupValue>
+					</Rule>
+				</Rules>
+			</RulesTableItem>
+			<RulesTableItem IFCEntityType="IfcWallType">
+				<Rules>
+					<Rule>
+						<GroupValue>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="BE61CB1C-0AEF-4D59-B2F3-EC8E08F78FB5"/>
+							<TextValue Text=" - "/>
+							<ACPropertyValue PropertyDefinitionGroupName="MATERIALS" PropertyDefinitionName="Material Tag"/>
+							<TextValue Text=" (× "/>
+							<ACBuiltInPropertyValue PropertyDefinitionGuid="A7B55E43-7C56-4C9E-836D-7A56F1D9D760"/>
 							<TextValue Text=")"/>
 						</GroupValue>
 					</Rule>
